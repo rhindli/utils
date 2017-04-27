@@ -1,0 +1,23 @@
+Delete all files older then 1 day:
+
+find <directory-path> -mtime +0  -type f -name '*' -delete
+
+ex.  find /opt/payara41/glassfish/domains/scloud/logs/access -mtime +0  -type f -name '*' -delete
+
+=========================
+
+Delete all files except last n files:
+
+a. files order alphabetically descending
+
+ls -r | tail -n +<nr-files+1> | xargs rm
+
+ex. delete all files except last 1
+ls -r | tail -n +2 | xargs rm
+
+ex. delete all files except last 5
+ls -r | tail -n +6 | xargs rm
+
+To delete files sorted by date use correct paramter for ls command
+
+

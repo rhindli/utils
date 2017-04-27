@@ -1,0 +1,26 @@
+#start sqlplus and log in with user system
+# create directory 
+create directory dmpdir as 'c:/temp';
+select directory_name,directory_path from dba_directories;
+
+# expdp owner
+create user scott identified by tiger;
+grant connect, resource to scott;
+...
+grant read, write on directory dmpdir to scott;
+
+#open a command prompt and run expdp
+expdp scott/tiger@xe directory=dmpdir dumpfile=scott.dmp logfile=expdp.log
+
+# impdp owner (set with sqlplus logged in as system)
+create user new_scott identified by tiger;
+grant connect, resource to new_scott;
+grant read, write on directory dmpdir to new_scott;
+
+#open a command prompt and run impdp
+impdp new_scott/tiger@xe directory=dmpdir dumpfile=scott.dmp remap_schema=scott:new_scott logfile=impdp.log
+
+# other example
+expdp system/system@xe directory=dmpdir dumpfile=schemas.dmp logfile=expdp.log schemas=schema1,schema2
+impdp system/system@xe directory=dmpdir dumpfile=schemas.dmp logfile=impdp.log table_exists_action=replace schemas=schema1,schema2
+impdp system/system@xe directory=dmpdir dumpfile=schemas.dmp logfile=impdp.log table_exists_action=replace schemas=schema1,schema2 remap_tablespace=ts1:new_ts1 remap_schema=schema1:new_schema1

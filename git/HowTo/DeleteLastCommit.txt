@@ -1,0 +1,12 @@
+git reset --hard HEAD~1
+git push origin HEAD --force
+
+Careful: git reset --hard WILL DELETE YOUR WORKING DIRECTORY CHANGES. Be sure to stash any local changes you want to keep before running this command.
+
+Instead of 
+
+git reset --hard HEAD~1
+
+you could look at the output of git log, find the commit id of the commit you want to back up to, and then do this:
+
+git reset --hard <sha1-commit-id>

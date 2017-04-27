@@ -1,0 +1,2 @@
+git tag -d <tagname>
+git push --tags origin :<tagname>
