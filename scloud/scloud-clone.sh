@@ -61,4 +61,3 @@ git clone https://github.com/BITSoftware/sweb-themes.git
 git clone https://github.com/BITSoftware/swms.git
 git clone https://github.com/BITSoftware/swss.git
 
-pause.
