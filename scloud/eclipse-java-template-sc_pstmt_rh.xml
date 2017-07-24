@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="simplest form" enabled="true" name="sc_pstmt_rh">try(PreparedStatement ps = DB.prepareStatement("", get_Trx()))&#13;
+{&#13;
+	//DB.setParams(ps, params);&#13;
+	&#13;
+	ResultSet rs = ps.executeQuery();&#13;
+	while (rs.next()) &#13;
+	{&#13;
+		&#13;
+	}&#13;
+}&#13;
+catch (SQLException e) &#13;
+{&#13;
+	log.log(Level.SEVERE, e.getMessage(), e);&#13;
+}</template></templates>

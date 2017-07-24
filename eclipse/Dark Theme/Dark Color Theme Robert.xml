@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="1" name="Dark Colors Theme Robert" modified="2011-03-09 13:29:27" author="Robert Hindli">
+    <searchResultIndication color="#C25126" />
+    <filteredSearchResultIndication color="#C25126" />
+    <occurrenceIndication color="#9900CC" />
+    <writeOccurrenceIndication color="#990000" />
+    <findScope color="#111111" />
+    <deletionIndication color="#D20019" />
+    <sourceHoverBackground color="#000000" />
+    <singleLineComment color="#E3E39F" italic="true" />
+    <multiLineComment color="#E3E39F" italic="true" />
+    <commentTaskTag color="#E3E39F" bold="true" italic="true" />
+    <javadoc color="#E3E39F" bold="false" italic="true" />
+    <javadocLink color="#E3E39F" bold="true" italic="true" underline="true" strikethrough="false" />
+    <javadocTag color="#E3E39F" bold="true" italic="true" />
+    <javadocKeyword color="#E3E39F" bold="true" italic="true" />
+    <class color="#FFFFFF" />
+    <interface color="#FFFFFF" />
+    <method color="#FFFFFF" />
+    <methodDeclaration color="#FFFFFF" bold="false" />
+    <bracket color="#FFFFFF" />
+    <number color="#FFFFFF" bold="false" italic="false" />
+    <string color="#FA96F2" bold="false" italic="false" />
+    <operator color="#FFFFFF" />
+    <keyword color="#E39F9F" bold="false" />
+    <annotation color="#FFFFFF" />
+    <staticMethod color="#FFFFFF" italic="true"/>
+    <localVariable color="#FFFFFF" />
+    <localVariableDeclaration color="#FFFFFF" />
+    <field color="#A2DDF5" />
+    <staticField color="#A2DDF5" italic="true" />
+    <staticFinalField color="#A2DDF5" italic="true" />
+    <deprecatedMember color="#FFFFFF" underline="false" strikethrough="true" />
+    <enum color="#FFFFFF" />
+    <inheritedMethod color="#FFFFFF" />
+    <parameterVariable color="#FFFFFF" />
+    <typeArgument color="#FFFFFF" />
+    <typeParameter color="#FFFFFF" />
+    <constant color="#FFFFFF" />
+    <background color="#0D1622" />
+    <currentLine color="#253E5A" />
+    <foreground color="#FFFFFF" />
+    <lineNumber color="#FFFFFF" />
+    <selectionForeground color="#FFFFFF" />
+    <selectionBackground color="#3B6391" />
+    <debugCurrentInstructionPointer color="#475F29" />
+    <debugSecondaryInstructionPointer color="#577533" />
+</colorTheme>
