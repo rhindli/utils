@@ -1,42 +1,43 @@
-#!/bin/sh
+#!/bin/bash
 
-#Run git command recurrsively for all repositories
-#found in first level subfolders of the indicated folder.
-#
-#Parameters
-# $1 - folder name
-# $2
+display_usage() {
+    echo
+    echo "Run git command recurrsively for all repositories found in first level subfolders of the indicated folder."
+    echo
+    echo "RunGitCmdRecursive.sh folder [git] params"
+    echo
+    echo "folder     - parent folder of repositories folders"
+    echo "git        - optional you can include the 'git' command name"
+    echo "             If not specified it is implied"
+    echo "params     - git params"
+}
+
+if [ "$#" -eq 0 ]; then
+    display_usage
+    exit 1
+fi
+
+if [ "$#" -lt 2 ]; then
+    echo "Missing parameter(s). See usage"
+    display_usage
+    exit 1
+fi
 
 
 FOLDER_PATH=$1
 
-#read arguments
-
-if [[ $2 == 'git' ]]; then
-	shift
+START_ARG=2
+if [ "$2" == 'git' ]; then
+	START_ARG=3
 fi
 
-ARG1=$2
-ARG2=$3
-ARG3=$4
-ARG4=$5
-ARG5=$6
-ARG6=$7
-ARG7=$8
-ARG8=$9
-
-shift
-ARG9=$9
-shift
-ARG10=$9
-
-shift
-if [ ! -z "$9" ]; then
-	echo Maximum 10 git arguments accepted
-	exit 1
+if [ "$START_ARG" -eq 3 ] && [ "$#" -lt 3 ]; then
+    echo "Missing parameter(s). See usage"
+    display_usage
+    exit 1
 fi
 
-echo Run git command on all repositories in "$FOLDER_PATH"
+echo "Run git command on all repositories in $FOLDER_PATH"
 echo
 
 cd $FOLDER_PATH
@@ -49,7 +50,7 @@ do
 	if [ -d ".git" ]; then
 		echo
 		echo $directory
-		git $ARG1 $ARG2 $ARG3 $ARG4 $ARG5 $ARG6 $ARG7 $ARG8 $ARG9 $ARG10
+		git ${@:$START_ARG}
 	fi
 	
 	cd ..
