@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sample-project" xmlns:as="antlib:org.codehaus.mojo.animal_sniffer">
+
+  <property environment="env"/>
+  <property name="workdir" value="/Users/hrobert/dev/tmp/httpclient"/>
+  <property name="appjar" value="${workdir}/app.jar"/>
+
+  <path id="jre">
+    <fileset dir="\${java.home}" includes="lib/rt.jar"/>
+    <fileset dir="\${java.home}" includes="lib/jce.jar"/>
+    <fileset dir="\${java.home}" includes="lib/jsse.jar"/>
+  </path>
+
+  <typedef uri="antlib:org.codehaus.mojo.animal_sniffer">
+    <classpath path="/Users/hrobert/dev/tmp/animal-sniffer/animal-sniffer-ant-tasks-1.16.jar"/>
+  </typedef>
+
+  <target name="clean">
+    <delete file="${workdir}/lib.sig"/>
+  </target>
+
+  <target name="build-lib-signatures">
+    <as:build-signatures destfile="${workdir}/lib.sig" >
+      <path>
+        <fileset dir="${workdir}">
+          <include name="*.jar"/>
+        </fileset>
+      </path>
+    </as:build-signatures>
+  </target>
+
+  <target name="check-lib-signatures" depends="build-lib-signatures">
+    <!--
+      in this case we are checking signatures not of the jdk, but of our API
+      so we need to add the classpath of the jdk, or else we will have
+      an error due to java.lang.Object being undefined
+      -->
+    <as:check-signature signature="${workdir}/lib.sig" classpathRef="jre">
+      <path path="${appjar}"/>
+      <ignore className="java.*"/>
+      <ignore className="javax.*"/>
+    </as:check-signature>
+  </target>
+
+
+</project>
