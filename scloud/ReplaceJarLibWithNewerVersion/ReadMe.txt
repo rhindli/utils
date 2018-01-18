@@ -34,6 +34,11 @@ test-api.jar
 cd <JarAnalyzer folder>
 ./runxmlsummary.sh
 
+When prompted for parameters fill in the following:\
+
+Please enter input directory name: /path/to/the/jars/folder/created/at/step/1
+Please enter output file name: path/to/the/file/that/will/be/created
+
 This will create an xml file with all the dependencies between jars.
 
 Note: runxmlsummary.sh is not in the original archive of JarAnalyzer. It was created manually and added to the archive. Take care in case you get a newer version of JarAnalyzer.
