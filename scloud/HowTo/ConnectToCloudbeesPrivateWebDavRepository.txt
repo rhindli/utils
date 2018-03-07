@@ -1,0 +1,3 @@
+URL to private Cloudbees WebDAV repository:
+https://repository-{account-id}.forge.cloudbees.com/private/
+

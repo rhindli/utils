@@ -12,6 +12,8 @@ display_usage() {
     echo "params     - git params"
 }
 
+
+
 if [ "$#" -eq 0 ]; then
     display_usage
     exit 1
@@ -50,11 +52,13 @@ do
 	if [ -d ".git" ]; then
 		echo
 		echo $directory
-		git ${@:$START_ARG}
+		git "${@:$START_ARG}"
 	fi
 	
 	cd ..
 done
+
+echo "${@:$START_ARG}"
 
 echo
 
