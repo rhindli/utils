@@ -21,6 +21,7 @@ git clone https://github.com/BITSoftware/pirw.git
 git clone https://github.com/BITSoftware/pmed.git
 git clone https://github.com/BITSoftware/prds.git
 git clone https://github.com/BITSoftware/prks.git
+git clone https://github.com/BITSoftware/prop.git
 git clone https://github.com/BITSoftware/reporting.git
 git clone https://github.com/BITSoftware/sagr.git
 git clone https://github.com/BITSoftware/scld.git

@@ -38,6 +38,7 @@ if exist "%DEST_WORKSPACE%"\lib rmdir /s /q "%DEST_WORKSPACE%"\lib
 if exist "%DEST_WORKSPACE%"\pbit rmdir /s /q "%DEST_WORKSPACE%"\pbit
 if exist "%DEST_WORKSPACE%"\pirw rmdir /s /q "%DEST_WORKSPACE%"\pirw
 if exist "%DEST_WORKSPACE%"\prks rmdir /s /q "%DEST_WORKSPACE%"\prks
+if exist "%DEST_WORKSPACE%"\prop rmdir /s /q "%DEST_WORKSPACE%"\prop
 if exist "%DEST_WORKSPACE%"\reporting rmdir /s /q "%DEST_WORKSPACE%"\reporting
 if exist "%DEST_WORKSPACE%"\sagr rmdir /s /q "%DEST_WORKSPACE%"\sagr
 if exist "%DEST_WORKSPACE%"\scld rmdir /s /q "%DEST_WORKSPACE%"\scld
@@ -86,6 +87,7 @@ mkdir "%DEST_WORKSPACE%"\lib
 mkdir "%DEST_WORKSPACE%"\pbit
 mkdir "%DEST_WORKSPACE%"\pirw
 mkdir "%DEST_WORKSPACE%"\prks
+mkdir "%DEST_WORKSPACE%"\prop
 mkdir "%DEST_WORKSPACE%"\reporting
 mkdir "%DEST_WORKSPACE%"\sagr
 mkdir "%DEST_WORKSPACE%"\scld
@@ -133,6 +135,7 @@ robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\lib "%DEST_WORKSPACE%"\lib
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pbit "%DEST_WORKSPACE%"\pbit
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pirw "%DEST_WORKSPACE%"\pirw
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\prks "%DEST_WORKSPACE%"\prks
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\prop "%DEST_WORKSPACE%"\prop
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\reporting "%DEST_WORKSPACE%"\reporting
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sagr "%DEST_WORKSPACE%"\sagr
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\scld "%DEST_WORKSPACE%"\scld
