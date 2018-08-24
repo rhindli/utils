@@ -1,0 +1,15 @@
+Double=quoted string\=0,0,0,0,0,23,198,163
+Double\ quoted\ string=0,0,0,0,0,250,150,242
+Identifier=0,0,0,0,0,255,255,255
+Keyword=0,0,0,0,0,227,159,159
+Multi-line=comment\=0,0,0,0,0,98,98,98
+Multi-line\ comment=0,0,0,0,0,227,227,159
+Others=0,0,0,0,0,255,255,255
+SQLEditor.executeSelectedSQL.betweenDelimiter.delimiterType=go
+Single=quoted string\=0,0,0,0,0,23,198,163
+Single\ quoted\ string=0,0,0,0,0,250,150,242
+Single-line=comment\=0,0,0,0,0,98,98,98
+Single-line\ comment=0,0,0,0,0,227,227,159
+Type=0,0,0,0,0,255,255,255
+com.sybase.stf.dmp.ui.sqleditor.template.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="org.eclipse.datatools.sqltools.editor.template.sql.generic" deleted\="false" description\="Start modification comment RH" enabled\="true" name\="rhs">-- 1019441 - Robert Hindli</template><template autoinsert\="true" context\="org.eclipse.datatools.sqltools.editor.template.sql.generic" deleted\="false" description\="End modification comment RH" enabled\="true" name\="rhe">-- 1019441 - end</template></templates>
+eclipse.preferences.version=1

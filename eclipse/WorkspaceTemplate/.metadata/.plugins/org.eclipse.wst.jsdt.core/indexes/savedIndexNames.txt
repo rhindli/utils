@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+/Users/hrobert/dev/workspace/graphql1/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

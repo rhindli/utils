@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SWMSUnitTests.java&apos; to &apos;scwi/test/org.bitsoftware.scwi.test&apos;&#x0A;- Original project: &apos;swms&apos;&#x0A;- Destination element: &apos;scwi/test/org.bitsoftware.scwi.test&apos;&#x0A;- Original element: &apos;org.bitsoftware.test.swms.SWMSUnitTests.java&apos;" description="Copy compilation unit" destination="=scwi/test&lt;org.bitsoftware.scwi.test" element1="/test&lt;org.bitsoftware.test.swms{SWMSUnitTests.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516374477734" units="1" version="1.0"/>
+</session>

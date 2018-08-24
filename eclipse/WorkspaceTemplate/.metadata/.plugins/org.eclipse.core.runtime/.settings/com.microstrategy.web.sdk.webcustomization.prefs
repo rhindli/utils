@@ -1,0 +1,12 @@
+antLocation=D\:\\SocrateOpen\\MSTRWebService\\apache-ant-1.8.2
+axis2Location=D\:\\SocrateOpen\\MSTRWebService\\axis2-1.5.1
+browserURL=http\://robert-pc/MicroStrategy/asp/Main.aspx
+customFolderPreference=BITSoftware
+deployLocation=D\:\\SocrateOpen\\MSTRWebService
+eclipse.preferences.version=1
+kernelJar=D\:\\SocrateOpen\\MSTRWebService\\axis2-1.5.1\\lib\\axis2-kernel-1.5.1.jar
+msdlLastBrowsedLocation=C\:/MicroStrategy/SDK/docs
+msdzLocation=C\:/MicroStrategy/SDK/docs
+pathPreference=C\:\\MicroStrategy\\Web ASPx
+useMSDZOnline=false
+validMSDLLocation=C\:/MicroStrategy/SDK/docs

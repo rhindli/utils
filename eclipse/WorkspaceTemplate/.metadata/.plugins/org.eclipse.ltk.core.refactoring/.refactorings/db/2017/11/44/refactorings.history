@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;db&apos;&#x0A;- Original project: &apos;db&apos;&#x0A;- Original element: &apos;RV_SFXA_AssetTaxDpr_V.sql&apos;" description="Delete element" element1="database/BIT/Views/RV_SFXA_AssetTaxDpr_V.sql" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1509613548121" subPackages="false" version="1.0"/>
+</session>

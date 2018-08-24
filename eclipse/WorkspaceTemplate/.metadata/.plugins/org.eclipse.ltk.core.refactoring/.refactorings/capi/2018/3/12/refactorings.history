@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;accessTokenUser&apos; in &apos;com.bitsoftware.capi.rest.APIFilter.initializeContext(...)&apos; to &apos;authUser&apos;&#x0A;- Original project: &apos;capi&apos;&#x0A;- Original element: &apos;com.bitsoftware.capi.rest.APIFilter.initializeContext(APIHttpServletRequest, AccessTokenData).accessTokenUser&apos;&#x0A;- Renamed element: &apos;accessTokenUser&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;accessTokenUser&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/api&lt;com.bitsoftware.capi.rest{APIFilter.java[APIFilter~initializeContext~QAPIHttpServletRequest;~QAccessTokenData;@accessTokenUser!18886!18959!18892!18906!QMUser;!0!false" name="authUser" references="true" stamp="1521794704855" version="1.0"/>
+</session>

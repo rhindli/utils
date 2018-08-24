@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+properties=deploy.dir,localWorkers,dir.deploy,fastBuild,
+property.deploy.dir=/Users/hrobert/dev/payara41/glassfish/domains/domain1/autodeploy
+property.dir.deploy=/Users/hrobert/dev/payara41/glassfish/domains/domain1/autodeploy
+property.fastBuild=true
+property.localWorkers=4

@@ -1,0 +1,11 @@
+1504598047039	Rename field 'TOKEN_ResetPassword'
+1504598232685	Rename enum constant 'ResetPassword'
+1504598360651	Rename type 'PageMode'
+1504598407057	Rename field 'pageMode'
+1504702198234	Rename field 'b_siteseal'
+1504702366305	Rename field 'siteseal'
+1504702382478	Rename field 'siteSealLayout'
+1504704710950	Rename field 'siteSeal'
+1504796598748	Copy compilation unit
+1504796839563	Rename type 'MissingTwoWayAuthTokenException'
+1504863584343	Delete element

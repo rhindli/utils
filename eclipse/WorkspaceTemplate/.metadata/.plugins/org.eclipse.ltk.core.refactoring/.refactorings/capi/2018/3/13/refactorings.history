@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PasswordExpiredException.java&apos; to &apos;com.bitsoftware.capi.auth.PasswordExpiredException.java&apos;&#x0A;- Original project: &apos;capi&apos;&#x0A;- Destination element: &apos;com.bitsoftware.capi.auth.PasswordExpiredException.java&apos;&#x0A;- Original element: &apos;com.bitsoftware.capi.auth.PasswordExpiredException.java&apos;" description="Copy compilation unit" destination="/src\/api&lt;com.bitsoftware.capi.auth{PasswordExpiredException.java" element1="/src\/api&lt;com.bitsoftware.capi.auth{PasswordExpiredException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1522073740880" units="1" version="1.0"/>
+</session>

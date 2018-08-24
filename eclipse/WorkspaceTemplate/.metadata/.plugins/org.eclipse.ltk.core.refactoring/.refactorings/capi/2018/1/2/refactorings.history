@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;_01_01_2018&apos; in &apos;org.bitsoftware.capi.model.MCAPITokenAccess&apos; to &apos;_01_01_2019&apos;&#x0A;- Original project: &apos;capi&apos;&#x0A;- Original element: &apos;org.bitsoftware.capi.model.MCAPITokenAccess._01_01_2018&apos;&#x0A;- Renamed element: &apos;org.bitsoftware.capi.model.MCAPITokenAccess._01_01_2019&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;_01_01_2018&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/api&lt;org.bitsoftware.capi.model{MCAPITokenAccess.java[MCAPITokenAccess^_01_01_2018" name="_01_01_2019" references="true" setter="false" stamp="1515594300856" textual="false" version="1.0"/>
+</session>

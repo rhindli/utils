@@ -1,0 +1,10 @@
+1503567474122	Copy compilation unit
+1503588257665	Rename field 'fn_RepeatNewPassword'
+1503588354771	Rename local variable 'repeatNewPasswordItem'
+1503643249902	Rename field 'PageNoChangePwd'
+1503643266529	Rename field 'PageNoChangePassword'
+1503643282406	Rename field 'PageNoSelectRole'
+1503643290849	Rename field 'PageNoLogin'
+1503646928947	Rename method 'showPage'
+1503647736555	Rename method 'setRole'
+1503665159443	Rename local variable 'changePwdTxtItem'

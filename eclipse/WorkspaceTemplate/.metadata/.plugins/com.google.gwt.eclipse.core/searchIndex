@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JavaRefs>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="19416" source="/sweb/src/war/com/bitsoftware/soweb/client/window/Attachments.java">@com.bitsoftware.soweb.client.window.Attachments::getZIndex()</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="622" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/js/DateUtils.java">@com.bitsoftware.soweb.client.extensions.js.DateUtils::getTime(Ljava/util/Date;)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="775" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/js/DateUtils.java">@com.bitsoftware.soweb.client.extensions.js.DateUtils::createDate(D)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="454" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/js/DateUtils.java">@com.bitsoftware.soweb.client.extensions.js.DateUtils::createDate(D)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.JsniJavaRefParamType" offset="685" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/js/DateUtils.java">Ljava/util/Date;</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="636" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/SODateUtil.java">@com.smartgwt.client.util.DateDisplayFormatter::format(Ljava/util/Date;)</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.JsniJavaRefParamType" offset="691" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/SODateUtil.java">Ljava/util/Date;</JavaRef>
+<JavaRef class="com.google.gwt.eclipse.core.search.IndexedJsniJavaRef" offset="542" source="/sweb/src/war/com/bitsoftware/soweb/client/extensions/SODateUtil.java">@com.smartgwt.client.util.JSOHelper::toDate(D)</JavaRef>
+</JavaRefs>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.bitsoftware.prop.test.PDELUnitTests.java&apos; to &apos;PROPUnitTests.java&apos;&#x0A;- Original project: &apos;prop&apos;&#x0A;- Original element: &apos;org.bitsoftware.prop.test.PDELUnitTests.java&apos;&#x0A;- Renamed element: &apos;org.bitsoftware.prop.test.PROPUnitTests.java&apos;" description="Rename compilation unit &apos;PDELUnitTests.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/test&lt;org.bitsoftware.prop.test{PDELUnitTests.java" name="PROPUnitTests.java" references="false" stamp="1534753406374" version="1.0"/>
+</session>

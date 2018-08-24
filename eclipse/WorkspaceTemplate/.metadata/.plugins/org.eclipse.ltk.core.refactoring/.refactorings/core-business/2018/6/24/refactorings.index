@@ -1,0 +1,6 @@
+1528702361063	Rename local variable 'qtyShipment'
+1528702391390	Rename local variable 'qtyToShip'
+1528730383438	Rename local variable 'retVal'
+1528802370872	Rename type 'StorageLoader'
+1528805324506	Rename type 'StoragesLoader'
+1528808754188	Rename compilation unit 'MStorageLoader.java'
