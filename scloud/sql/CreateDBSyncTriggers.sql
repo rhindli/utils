@@ -11,7 +11,7 @@ BEGIN
                     JOIN AD_ENTITYTYPE E ON T.ENTITYTYPE = E.ENTITYTYPE 
                 WHERE T.ENTITYTYPE IN(  'C', 'D'
                  , 'SEDI', 'SFLT', 'SHRM', 'SMRP', 'SOBK', 'SOD', 'SOHH', 'SDEI', 'SWSS', 'SELE', 'SBIT', 'SOFF', 'SPOS', 'SMAG'
-                 , 'SMST', 'SDWH', 'SWEB', 'SGAP', 'SAGR', 'SFXA', 'SFRO', 'SRPD', 'SMON', 'SCQM'
+                 , 'SMST', /*'SDWH',*/ 'SWEB', 'SGAP', 'SAGR', 'SFXA', 'SFRO', 'SRPD', 'SMON', 'SCQM'
                  , 'CAPI', 'SMOB', 'SFHU', 'STLN', 'SWMS', 'SEMS', 'SCWI', 'SPRJ', 'SPRC', 'STRL', 'CSEC', 'SDEV', 'SZPM', 'SUMS', 'SMLM', 'SPRV'
                  , 'ITAS', 'SWST', 'SCLD', 'SICM'
                  , 'PAER', 'PF64', 'PRDS', 'PAUR', 'PBIT', 'PMED', 'PAVG', 'PIRW', 'PCSD', 'PDEL', 'PRKS', 'PROP' 
@@ -30,7 +30,7 @@ BEGIN
                     JOIN AD_ENTITYTYPE E ON T.ENTITYTYPE = E.ENTITYTYPE 
                 WHERE T.ENTITYTYPE IN(  'C', 'D'
                  , 'SEDI', 'SFLT', 'SHRM', 'SMRP', 'SOBK', 'SOD', 'SOHH', 'SDEI', 'SWSS', 'SELE', 'SBIT', 'SOFF', 'SPOS', 'SMAG'
-                 , 'SMST', 'SDWH', 'SWEB', 'SGAP', 'SAGR', 'SFXA', 'SFRO', 'SRPD', 'SMON', 'SCQM'
+                 , 'SMST', /*'SDWH',*/ 'SWEB', 'SGAP', 'SAGR', 'SFXA', 'SFRO', 'SRPD', 'SMON', 'SCQM'
                  , 'CAPI', 'SMOB', 'SFHU', 'STLN', 'SWMS', 'SEMS', 'SCWI', 'SPRJ', 'SPRC', 'STRL', 'CSEC', 'SDEV', 'SZPM', 'SUMS', 'SMLM', 'SPRV'
                  , 'ITAS', 'SWST', 'SCLD', 'SICM'
                  , 'PAER', 'PF64', 'PRDS', 'PAUR', 'PBIT', 'PMED', 'PAVG', 'PIRW', 'PCSD', 'PDEL', 'PRKS', 'PROP' 
