@@ -53,6 +53,7 @@ git clone https://github.com/BITSoftware/soff.git
 git clone https://github.com/BITSoftware/sohh.git
 git clone https://github.com/BITSoftware/spos.git
 git clone https://github.com/BITSoftware/sprc.git
+git clone https://github.com/BITSoftware/sprv.git
 git clone https://github.com/BITSoftware/sprx.git
 git clone https://github.com/BITSoftware/srpd.git
 git clone https://github.com/BITSoftware/stln.git
