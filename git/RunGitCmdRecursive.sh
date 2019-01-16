@@ -1,15 +1,15 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 display_usage() {
     echo
     echo "Run git command recurrsively for all repositories found in first level subfolders of the indicated folder."
     echo
-    echo "RunGitCmdRecursive.sh folder [git] params"
+    echo "RunGitCmdRecursive.sh folder gitcmd"
     echo
     echo "folder     - parent folder of repositories folders"
-    echo "git        - optional you can include the 'git' command name"
-    echo "             If not specified it is implied"
-    echo "params     - git params"
+    echo "gitcmd     - git command with params"
 }
 
 
@@ -28,18 +28,10 @@ fi
 
 FOLDER_PATH=$1
 
-START_ARG=2
-if [ "$2" == 'git' ]; then
-	START_ARG=3
-fi
+#param number (1-based) of the git command
+GIT_CMD_START_ARG=2
 
-if [ "$START_ARG" -eq 3 ] && [ "$#" -lt 3 ]; then
-    echo "Missing parameter(s). See usage"
-    display_usage
-    exit 1
-fi
-
-echo "Run git command on all repositories in $FOLDER_PATH"
+echo "Run \"git ${@:$GIT_CMD_START_ARG}\" on all repositories in $FOLDER_PATH"
 echo
 
 cd $FOLDER_PATH
@@ -52,13 +44,11 @@ do
 	if [ -d ".git" ]; then
 		echo
 		echo $directory
-		git "${@:$START_ARG}"
+		git "${@:$GIT_CMD_START_ARG}"
 	fi
 	
 	cd ..
 done
-
-echo "${@:$START_ARG}"
 
 echo
 
