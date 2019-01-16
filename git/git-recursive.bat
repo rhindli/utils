@@ -1,9 +1,10 @@
-::Run git command recurrsively for all repositories
+::Run git command recursively for all repositories
 ::found in first level subfolders of the indicated folder.
 ::
 ::Parameters
 :: %1 - folder name
-:: %2
+:: %2 - git commmand
+:: %3 - %10 - parameters of the git command
 
 @echo off
 

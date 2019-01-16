@@ -4,9 +4,9 @@ set -eu -o pipefail
 
 display_usage() {
     echo
-    echo "Run git command recurrsively for all repositories found in first level subfolders of the indicated folder."
+    echo "Run git command recursively for all repositories found in first level subfolders of the indicated folder."
     echo
-    echo "RunGitCmdRecursive.sh folder gitcmd"
+    echo "git-recursive.sh folder gitcmd"
     echo
     echo "folder     - parent folder of repositories folders"
     echo "gitcmd     - git command with params"
