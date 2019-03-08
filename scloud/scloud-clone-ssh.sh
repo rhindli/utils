@@ -1,63 +1,77 @@
-#!/bin/sh
+#!/bin/bash
 
-git clone git@github.com:BITSoftware/capi.git
-git clone git@github.com:BITSoftware/core-business.git
-git clone git@github.com:BITSoftware/core-framework.git
-git clone git@github.com:BITSoftware/csec.git
-git clone git@github.com:BITSoftware/db.git
-git clone git@github.com:BITSoftware/dev.git
-git clone git@github.com:BITSoftware/extend.git
-git clone git@github.com:BITSoftware/installer.git
-git clone git@github.com:BITSoftware/jclient.git
-git clone git@github.com:BITSoftware/jclientEar.git
-git clone git@github.com:BITSoftware/lib.git
-git clone git@github.com:BITSoftware/paer.git
-git clone git@github.com:BITSoftware/paur.git
-git clone git@github.com:BITSoftware/pavg.git
-git clone git@github.com:BITSoftware/pbit.git
-git clone git@github.com:BITSoftware/pcsd.git
-git clone git@github.com:BITSoftware/pf64.git
-git clone git@github.com:BITSoftware/pirw.git
-git clone git@github.com:BITSoftware/pmed.git
-git clone git@github.com:BITSoftware/prds.git
-git clone git@github.com:BITSoftware/prks.git
-git clone git@github.com:BITSoftware/prop.git
-git clone git@github.com:BITSoftware/reporting.git
-git clone git@github.com:BITSoftware/sagr.git
-git clone git@github.com:BITSoftware/scld.git
-git clone git@github.com:BITSoftware/scqm.git
-git clone git@github.com:BITSoftware/scwi.git
-git clone git@github.com:BITSoftware/sdei.git
-git clone git@github.com:BITSoftware/sdwh.git
-git clone git@github.com:BITSoftware/sedi.git
-git clone git@github.com:BITSoftware/sele.git
-git clone git@github.com:BITSoftware/sems.git
-git clone git@github.com:BITSoftware/server.git
-git clone git@github.com:BITSoftware/sfhu.git
-git clone git@github.com:BITSoftware/sfro.git
-git clone git@github.com:BITSoftware/sfxa.git
-git clone git@github.com:BITSoftware/sgap.git
-git clone git@github.com:BITSoftware/shrmWs.git
-git clone git@github.com:BITSoftware/sicm.git
-git clone git@github.com:BITSoftware/smag.git
-git clone git@github.com:BITSoftware/smlm.git
-git clone git@github.com:BITSoftware/smob.git
-git clone git@github.com:BITSoftware/smon.git
-git clone git@github.com:BITSoftware/smrp.git
-git clone git@github.com:BITSoftware/smstr.git
-git clone git@github.com:BITSoftware/smstrWS.git
-git clone git@github.com:BITSoftware/sobk.git
-git clone git@github.com:BITSoftware/soff.git
-git clone git@github.com:BITSoftware/sohh.git
-git clone git@github.com:BITSoftware/spos.git
-git clone git@github.com:BITSoftware/sprc.git
-git clone git@github.com:BITSoftware/sprv.git
-git clone git@github.com:BITSoftware/sprx.git
-git clone git@github.com:BITSoftware/srpd.git
-git clone git@github.com:BITSoftware/stln.git
-git clone git@github.com:BITSoftware/strl.git
-git clone git@github.com:BITSoftware/sweb.git
-git clone git@github.com:BITSoftware/sweb-themes.git
-git clone git@github.com:BITSoftware/swms.git
-git clone git@github.com:BITSoftware/swss.git
+#Git repositories
+repos=(    \
+capi             \
+core-business    \
+core-framework   \
+csec             \
+db               \
+dev              \
+extend           \
+installer        \
+jclient          \
+jclientEar       \
+lib              \
+paer             \
+paur             \
+pavg             \
+pbit             \
+pcsd             \
+pf64             \
+pirw             \
+pmed             \
+prds             \
+prks             \
+prop             \
+reporting        \
+sagr             \
+scld             \
+scqm             \
+scwi             \
+sdei             \
+sdwh             \
+sedi             \
+sele             \
+sems             \
+server           \
+sfhu             \
+sfro             \
+sfxa             \
+sgap             \
+shrmWs           \
+sicm             \
+smag             \
+smlm             \
+smob             \
+smon             \
+smrp             \
+smstr            \
+smstrWS          \
+sobk             \
+soff             \
+sohh             \
+spos             \
+sprc             \
+sprv             \
+sprx             \
+srpd             \
+stln             \
+strl             \
+sweb             \
+sweb-themes      \
+swms             \
+swss             \
+)
 
+#Git repository count
+repos_cnt=${#repos[@]}
+
+#get full path of the directory where this script resides
+script="$0"
+scriptdir="$(dirname $(readlink -f $script))"
+
+for ((n=0; n<repos_cnt; n++)); do
+    echo "Cloning ${repos[$n]}"
+    git clone git@github.com:BITSoftware/${repos[$n]}.git
+done

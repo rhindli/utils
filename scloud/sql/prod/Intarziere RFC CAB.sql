@@ -34,6 +34,6 @@ WHERE R_REQUEST.R_REQUESTTYPE_ID = 1000003 --RFC
                   from R_RequestUpdate 
                   where R_RequestUpdate.r_request_id = r_request.r_request_id 
                           AND R_REQUESTUPDATE.R_GROUP_ID = 1000012)
-      and r_request.created >= to_date('01-11-2017', 'DD-MM-YYYY') 
-      AND r_request.created < to_date('01-12-2017', 'DD-MM-YYYY')
+      and r_request.created >= to_date('01-12-2018', 'DD-MM-YYYY') 
+      AND r_request.created < to_date('31-12-2018', 'DD-MM-YYYY')
 ORDER BY 4 DESC
