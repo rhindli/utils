@@ -34,6 +34,8 @@ if exist "%DEST_WORKSPACE%"\db rmdir /s /q "%DEST_WORKSPACE%"\db
 if exist "%DEST_WORKSPACE%"\dev rmdir /s /q "%DEST_WORKSPACE%"\dev
 if exist "%DEST_WORKSPACE%"\extend rmdir /s /q "%DEST_WORKSPACE%"\extend
 if exist "%DEST_WORKSPACE%"\installer rmdir /s /q "%DEST_WORKSPACE%"\installer
+if exist "%DEST_WORKSPACE%"\jclient rmdir /s /q "%DEST_WORKSPACE%"\jclient
+if exist "%DEST_WORKSPACE%"\jclientEar rmdir /s /q "%DEST_WORKSPACE%"\jclientEar
 if exist "%DEST_WORKSPACE%"\lib rmdir /s /q "%DEST_WORKSPACE%"\lib
 if exist "%DEST_WORKSPACE%"\pbit rmdir /s /q "%DEST_WORKSPACE%"\pbit
 if exist "%DEST_WORKSPACE%"\pirw rmdir /s /q "%DEST_WORKSPACE%"\pirw
@@ -83,6 +85,8 @@ mkdir "%DEST_WORKSPACE%"\db
 mkdir "%DEST_WORKSPACE%"\dev
 mkdir "%DEST_WORKSPACE%"\extend
 mkdir "%DEST_WORKSPACE%"\installer
+mkdir "%DEST_WORKSPACE%"\jclient
+mkdir "%DEST_WORKSPACE%"\jclientEar
 mkdir "%DEST_WORKSPACE%"\lib
 mkdir "%DEST_WORKSPACE%"\pbit
 mkdir "%DEST_WORKSPACE%"\pirw
@@ -131,6 +135,8 @@ robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\db "%DEST_WORKSPACE%"\db
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\dev "%DEST_WORKSPACE%"\dev
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\extend "%DEST_WORKSPACE%"\extend
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\installer "%DEST_WORKSPACE%"\installer
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\jclient "%DEST_WORKSPACE%"\jclient
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\jclientEar "%DEST_WORKSPACE%"\jclientEar
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\lib "%DEST_WORKSPACE%"\lib
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pbit "%DEST_WORKSPACE%"\pbit
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pirw "%DEST_WORKSPACE%"\pirw
