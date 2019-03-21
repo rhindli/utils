@@ -1,0 +1,6 @@
+
+#find all directories named 'test' except those whose path contains 'bin' directory
+find . -type d ! -path '*/bin/*' -name 'test'
+
+#find all directories named 'test' except those whose path contains 'bin' directory
+find . -type d ! \( -path '*/bin/*' -o -path '*/src/*' \) -name 'test'
