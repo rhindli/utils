@@ -13,3 +13,9 @@ fi
 if [ -n "$VAR1" ]; then
 	echo "VAR1 is not empty"
 fi
+
+#check string contains substring
+VAR1='Main string check'
+if [[ $VAR1 == *"check"* ]]; then
+	echo "Contains 'check'"
+fi
