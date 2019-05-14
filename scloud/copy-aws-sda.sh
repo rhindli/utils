@@ -346,4 +346,11 @@ if [ ! $? -eq 0 ]; then
   exit 1
 fi
 
+cp -f $VERSION_KIT_HOME/data/sorefPMOD.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
 echo "Done."
