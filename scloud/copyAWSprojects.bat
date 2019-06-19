@@ -37,11 +37,18 @@ if exist "%DEST_WORKSPACE%"\installer rmdir /s /q "%DEST_WORKSPACE%"\installer
 if exist "%DEST_WORKSPACE%"\jclient rmdir /s /q "%DEST_WORKSPACE%"\jclient
 if exist "%DEST_WORKSPACE%"\jclientEar rmdir /s /q "%DEST_WORKSPACE%"\jclientEar
 if exist "%DEST_WORKSPACE%"\lib rmdir /s /q "%DEST_WORKSPACE%"\lib
+if exist "%DEST_WORKSPACE%"\paer rmdir /s /q "%DEST_WORKSPACE%"\paer
+if exist "%DEST_WORKSPACE%"\paur rmdir /s /q "%DEST_WORKSPACE%"\paur
+if exist "%DEST_WORKSPACE%"\pavg rmdir /s /q "%DEST_WORKSPACE%"\pavg
 if exist "%DEST_WORKSPACE%"\pbit rmdir /s /q "%DEST_WORKSPACE%"\pbit
+if exist "%DEST_WORKSPACE%"\pcsd rmdir /s /q "%DEST_WORKSPACE%"\pcsd
+if exist "%DEST_WORKSPACE%"\pf64 rmdir /s /q "%DEST_WORKSPACE%"\pf64
 if exist "%DEST_WORKSPACE%"\pirw rmdir /s /q "%DEST_WORKSPACE%"\pirw
+if exist "%DEST_WORKSPACE%"\pmed rmdir /s /q "%DEST_WORKSPACE%"\pmed
+if exist "%DEST_WORKSPACE%"\pmod rmdir /s /q "%DEST_WORKSPACE%"\pmod
+if exist "%DEST_WORKSPACE%"\prds rmdir /s /q "%DEST_WORKSPACE%"\prds
 if exist "%DEST_WORKSPACE%"\prks rmdir /s /q "%DEST_WORKSPACE%"\prks
 if exist "%DEST_WORKSPACE%"\prop rmdir /s /q "%DEST_WORKSPACE%"\prop
-if exist "%DEST_WORKSPACE%"\pmod rmdir /s /q "%DEST_WORKSPACE%"\pmod
 if exist "%DEST_WORKSPACE%"\reporting rmdir /s /q "%DEST_WORKSPACE%"\reporting
 if exist "%DEST_WORKSPACE%"\sagr rmdir /s /q "%DEST_WORKSPACE%"\sagr
 if exist "%DEST_WORKSPACE%"\scld rmdir /s /q "%DEST_WORKSPACE%"\scld
@@ -49,8 +56,10 @@ if exist "%DEST_WORKSPACE%"\scqm rmdir /s /q "%DEST_WORKSPACE%"\scqm
 if exist "%DEST_WORKSPACE%"\scwi rmdir /s /q "%DEST_WORKSPACE%"\scwi
 if exist "%DEST_WORKSPACE%"\sdei rmdir /s /q "%DEST_WORKSPACE%"\sdei
 if exist "%DEST_WORKSPACE%"\sedi rmdir /s /q "%DEST_WORKSPACE%"\sedi
+if exist "%DEST_WORKSPACE%"\sele rmdir /s /q "%DEST_WORKSPACE%"\sele
 if exist "%DEST_WORKSPACE%"\sems rmdir /s /q "%DEST_WORKSPACE%"\sems
 if exist "%DEST_WORKSPACE%"\server rmdir /s /q "%DEST_WORKSPACE%"\server
+if exist "%DEST_WORKSPACE%"\sfhu rmdir /s /q "%DEST_WORKSPACE%"\sfhu
 if exist "%DEST_WORKSPACE%"\sfro rmdir /s /q "%DEST_WORKSPACE%"\sfro
 if exist "%DEST_WORKSPACE%"\sfxa rmdir /s /q "%DEST_WORKSPACE%"\sfxa
 if exist "%DEST_WORKSPACE%"\sgap rmdir /s /q "%DEST_WORKSPACE%"\sgap
@@ -89,11 +98,18 @@ mkdir "%DEST_WORKSPACE%"\installer
 mkdir "%DEST_WORKSPACE%"\jclient
 mkdir "%DEST_WORKSPACE%"\jclientEar
 mkdir "%DEST_WORKSPACE%"\lib
+mkdir "%DEST_WORKSPACE%"\paer
+mkdir "%DEST_WORKSPACE%"\paur
+mkdir "%DEST_WORKSPACE%"\pavg
 mkdir "%DEST_WORKSPACE%"\pbit
+mkdir "%DEST_WORKSPACE%"\pcsd
+mkdir "%DEST_WORKSPACE%"\pf64
 mkdir "%DEST_WORKSPACE%"\pirw
+mkdir "%DEST_WORKSPACE%"\pmed
+mkdir "%DEST_WORKSPACE%"\pmod
+mkdir "%DEST_WORKSPACE%"\prds
 mkdir "%DEST_WORKSPACE%"\prks
 mkdir "%DEST_WORKSPACE%"\prop
-mkdir "%DEST_WORKSPACE%"\pmod
 mkdir "%DEST_WORKSPACE%"\reporting
 mkdir "%DEST_WORKSPACE%"\sagr
 mkdir "%DEST_WORKSPACE%"\scld
@@ -101,8 +117,10 @@ mkdir "%DEST_WORKSPACE%"\scqm
 mkdir "%DEST_WORKSPACE%"\scwi
 mkdir "%DEST_WORKSPACE%"\sdei
 mkdir "%DEST_WORKSPACE%"\sedi
+mkdir "%DEST_WORKSPACE%"\sele
 mkdir "%DEST_WORKSPACE%"\sems
 mkdir "%DEST_WORKSPACE%"\server
+mkdir "%DEST_WORKSPACE%"\sfhu
 mkdir "%DEST_WORKSPACE%"\sfro
 mkdir "%DEST_WORKSPACE%"\sfxa
 mkdir "%DEST_WORKSPACE%"\sgap
@@ -140,11 +158,18 @@ robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\installer "%DEST_WORKSPACE%"\ins
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\jclient "%DEST_WORKSPACE%"\jclient
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\jclientEar "%DEST_WORKSPACE%"\jclientEar
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\lib "%DEST_WORKSPACE%"\lib
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\paer "%DEST_WORKSPACE%"\paer
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\paur "%DEST_WORKSPACE%"\paur
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pavg "%DEST_WORKSPACE%"\pavg
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pbit "%DEST_WORKSPACE%"\pbit
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pcsd "%DEST_WORKSPACE%"\pcsd
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pf64 "%DEST_WORKSPACE%"\pf64
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pirw "%DEST_WORKSPACE%"\pirw
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pmed "%DEST_WORKSPACE%"\pmed
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pmod "%DEST_WORKSPACE%"\pmod
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\prds "%DEST_WORKSPACE%"\prds
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\prks "%DEST_WORKSPACE%"\prks
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\prop "%DEST_WORKSPACE%"\prop
-robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\pmod "%DEST_WORKSPACE%"\pmod
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\reporting "%DEST_WORKSPACE%"\reporting
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sagr "%DEST_WORKSPACE%"\sagr
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\scld "%DEST_WORKSPACE%"\scld
@@ -152,8 +177,10 @@ robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\scqm "%DEST_WORKSPACE%"\scqm
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\scwi "%DEST_WORKSPACE%"\scwi
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sdei "%DEST_WORKSPACE%"\sdei
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sedi "%DEST_WORKSPACE%"\sedi
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sele "%DEST_WORKSPACE%"\sele
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sems "%DEST_WORKSPACE%"\sems
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\server "%DEST_WORKSPACE%"\server
+robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sfhu "%DEST_WORKSPACE%"\sfhu
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sfro "%DEST_WORKSPACE%"\sfro
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sfxa "%DEST_WORKSPACE%"\sfxa
 robocopy /E /NFL /NDL /ETA "%SOURCE_WORKSPACE%"\sgap "%DEST_WORKSPACE%"\sgap

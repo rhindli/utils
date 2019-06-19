@@ -353,4 +353,74 @@ if [ ! $? -eq 0 ]; then
   exit 1
 fi
 
+cp -f $VERSION_KIT_HOME/data/sorefFBAA.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefSELE.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefSFHU.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPAER.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPAUR.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPAVG.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPCSD.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPF64.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPMED.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
+cp -f $VERSION_KIT_HOME/data/sorefPRDS.sda $DESTFOLDER
+if [ ! $? -eq 0 ]; then
+  echo
+  echo "Copy aws SDAs failed!"
+  exit 1
+fi
+
 echo "Done."
