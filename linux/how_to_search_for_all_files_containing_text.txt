@@ -1,0 +1,33 @@
+How to search a directory tree for all files containing specific text string on Linux using the command line. This tutorial will help you to search all files matching a string recursively. This tutorial uses “grep” command to search string in files. Alternatively, You can also also use the find command to search files with specific string.
+
+Syntax
+grep -rwl “search-string” /path/to/serch/dir
+
+1. Search Single String in All Files
+Below example command will search string “tecadmin” in all files in /var/log directory and its sub-directories.
+
+grep -rlw "tecadmin" /var/log 
+
+
+2. Search Multiple String in All Files
+You can also specify multiple strings to search using -e switch. This is similar to egrep command. Below example will search strings “tecadmin” and “https” in all files in /var/log directory and its sub-directories.
+
+grep -rlw -e "tecadmin" -e "https"  /var/log
+
+
+3. Search String in Specific Files
+You can search string in files matching the file name criteria. Below example command will search string “tecadmin” in files ending with .log extension in /var/log directory and its sub-directories.
+
+grep -rlw --include="*.log" -e "tecadmin" /var/log
+
+
+4. Exclude Some Files from Search
+If you want to exclude some files matching file name criteria. You can exclude some files using –exclude option in command. For example, do not search file ending with .txt extension.
+
+grep -rlw --exclude="*.txt" -e "tecadmin" /var/log
+
+
+5. Exclude Some Directories from Search
+You can also exclude some directoires to skip search inside it. For example, do not search string files inside any folder having http in their name.
+
+grep -rlw --exclude-dir="*http*" -e "tecadmin" /var/log

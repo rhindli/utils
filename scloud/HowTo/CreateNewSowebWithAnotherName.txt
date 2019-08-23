@@ -1,0 +1,22 @@
+To create an soweb with another name make the following changes:
+
+1. in sweb/build.xml change the name of the soweb for the following properties:
+
+	<property name="war.name" 				value="new_soweb"/>
+	<property name="ear.name" 				value="new_soweb"/>
+	<property name="sar.name" 				value="new_sweb"/>
+	<property name="jar.core.name" 			value="new_sweb_core"/>
+	<property name="jar.jclient.name"		value="new_sweb_jclient"/>
+
+2. in sweb/ear/application.xml change the web-uri and context-root to match the new name of the soweb
+
+	<module>
+		<web>
+			<web-uri>new_soweb.war</web-uri>
+			<context-root>/new_soweb</context-root>
+		</web>
+	</module>
+
+3. in sweb modify annotation of class com.bitsoftware.soweb.ejb.WebUIBean to use a different name/mappedName
+
+@Stateful(name="NewWebUI", mappedName="ejb/NewWebUI")
