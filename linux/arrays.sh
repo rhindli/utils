@@ -48,3 +48,14 @@ echo Copy array into another array
 copy_array=( "${sub_array1[@]}" )
 echo ${copy_array[@]}
 
+#arrays difference
+#https://stackoverflow.com/questions/2312762/compare-difference-of-two-arrays-in-bash
+
+
+#join array elements with separator
+function join_by { local IFS="$1"; shift; echo "$*"; }
+join_by , ${array[@]}
+
+#or join array elements with multi-charater delimiters
+function join_by { local d=$1; shift; echo -n "$1"; shift; printf "%s" "${@/#/$d}"; }
+join_by ';, ' ${array[@]}

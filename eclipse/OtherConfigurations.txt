@@ -1,0 +1,3 @@
+1. Install jadclipse plugin for decompiling classes
+
+2. On mac install from Eclipse Marketplace the "OS X Eclipse Launcher" plugin in order to be able to open many workspaces in paralel

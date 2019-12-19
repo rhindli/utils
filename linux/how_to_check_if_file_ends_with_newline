@@ -1,0 +1,12 @@
+Function to check whether a regular file ends with a newline:
+
+file_ends_with_newline () { [[ -f "$1" && -s "$1" && -z $(tail -c 1 "$1") ]]; }
+
+tail -c 1 "$1" returns the last byte in the file. 
+Command substitution deletes any trailing newlines, so if the file ended in a newline $(tail -c 1 "$1") is now empty, and the -z test succeeds. 
+However, $a will also be empty for an empty file, so we add -s "$1" to check that the file has a size greater than zero. 
+Finally, -f "$1" checks that the file is a regular file -- not a directory or a socket, etc.
+
+if file_ends_wtih_newline '/path/to/file'; then
+	//do stuff
+fi

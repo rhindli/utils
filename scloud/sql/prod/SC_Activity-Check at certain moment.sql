@@ -24,12 +24,12 @@ order by ElapsedTimeMM desc;
 /* Activities running at certain moment */
 select *
 from SC_Activity 
-where Created <= to_date('26-03-2017 20:18:00', 'DD-MM-YYYY HH24:MI:SS') 
-  and Updated >=  to_date('26-03-2017 20:18:00', 'DD-MM-YYYY HH24:MI:SS')
+where Created <= to_date('30-10-2019 09:00:00', 'DD-MM-YYYY HH24:MI:SS') 
+  and Updated >=  to_date('30-10-2019 09:00:00', 'DD-MM-YYYY HH24:MI:SS')
 union all
 select *
 from SC_Activity 
-where Created <= to_date('26-03-2017 20:18:00', 'DD-MM-YYYY HH24:MI:SS') 
+where Created <= to_date('30-10-2019 09:00:00', 'DD-MM-YYYY HH24:MI:SS') 
   and Created = Updated
   and IsClosed='N'
 ;

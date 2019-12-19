@@ -1,0 +1,8 @@
+if [ -n "${foobar+1}" ]; then
+  echo "foobar is defined"
+else
+  echo "foobar is not defined"
+fi
+
+Use ${foobar:+1} if you want to treat foobar the same way whether it is empty or not defined.
+You can also use ${foobar-} to get an empty string when foobar is undefined and the value of foobar otherwise (or put any other default value after the -).
