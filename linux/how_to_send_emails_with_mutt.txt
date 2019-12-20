@@ -1,0 +1,61 @@
+Importance of emails these days are very well known for information transfer. It provide a fast and reliable way to transfer your message instantly and secured. There are many email providers which provides you an interface to send or receive mails. But, what if we need to send emails through shell script or programatically from web application.
+
+Well the answer is yes, you can send email through command line also can send both attachment and body text together.
+
+To understand, here are some examples :
+
+1) Using mail Command : You can send email with subject and body text, and type a .(period) in a separate line to indicate message is over or You can hit CTRL+D
+-----
+# mail user@example.com
+Subject : To check email from command line.
+
+Dear,
+
+Sending mail through command line is quite easy and fun.
+
+Thanks & Regards,
+Hoststud
+.
+-----
+
+2) Reading body message from some text file : If you want to read the body text from a file (for example, message.txt), you can use the below given command to send the email.
+-----
+cat message.txt | mail -s "To check email from command line" user@example.com
+-----
+
+3) Subject and message in a single line : To specify the message body in just one line of command we can use the below command :
+
+-----
+# mail -s "subject line" user@example.com <<< 'message body of email'
+OR
+# echo "message body of email" | mail -s "subject line" user@example.com
+-----
+
+4). Specifying CC and BCC recipients : you can specify CC and BCC recipients through command line using these options
+-c email-address (used for CC)
+-b email-address (used for BCC)
+-----
+# mail -s "subject line" user@example.com -c user2@example.com -b user3@example.com
+-----
+
+5) Send mail to multiple recipients : You can specify multiple recipients by joining them with a comma.
+-----
+# mail -s "subject line" user@example.com,user2@example.com,user3@example.com
+OR
+# mail -s "subject line" user@example.com user2@example.com user3@example.com
+-----
+
+6) Send attachment with mail : You can send attachment with your email also.
+-----
+# mail -a /path/of/the/file -s "subject line" user@example.com < /home/user/message.txt
+-----
+
+7) Mutt command to send mail : You can also use mutt command to send emails through command line.
+-----
+# echo "This is mutt message" | mutt -s "subject line" user@example.com < /home/user/message.txt
+-----
+
+8) Mutt command to send mail with attachment : You can also use mutt command to send attachment with emails through command line.
+-----
+# mutt -s "subject line" -a /path/of/the/file --user@example.com < /home/user/message.txt
+-----
