@@ -16,14 +16,13 @@
 ##----------------------------------------------------------------
 ## 
 
-user='user'
-group='group'
-log_dir='/log/max_cpu_usage'
+user='hrobert'
+group='staff'
+log_dir='/Users/hrobert/dev/tmp/max_cpu_usage'
 
 declare -a domains_table
 domains_table=( \
 'domain1'  \
-'domain2'  \
 )
 len_dom=${#domains_table[@]}
 ##------------------------------

@@ -1,0 +1,56 @@
+Creare utilizator bitoperator (sau alt nume la alegere)
+
+$ sudo adduser bitoperator
+
+
+
+Adaugare parola pentru utilizatorul root
+
+$ sudo passwd
+
+
+
+Modificare parola utilizator logat
+
+$ passwd
+
+
+
+Creare grup cu numele sshlogin pentru configurare acces prin ssh
+
+$ sudo groupadd sshlogin
+
+
+
+Adaugare utilizator bitoperator in grupurile sudo,admin,sshlogin
+
+$ sudo usermod -aG root,admin,sshlogin bitoperator
+
+
+
+Adaugare utilizator ubuntu in grupul sshlogin
+
+$ sudo usermod -aG sshlogin ubuntu
+
+
+
+Configurari acces ssh: se editeaza fisierul /etc/ssh/sshd_config si se adauga/modifica urmatoarele setari:
+AllowGroups sshlogin
+PermitRootLogin no
+StrictModes yes
+PasswordAuthentication yes
+PermitEmptyPasswords no
+
+Dupa ce se salveaza modificarile in fisierul /etc/ssh/sshd_config se da restart la serviciul de ssh
+
+$ sudo service ssh restart
+
+
+
+Setare ca utilizatorul bitoperator sa nu introduca parola la sudo
+
+$ sudo visudo
+
+si se adauga linia:
+
+bitoperator ALL=(ALL) NOPASSWD: ALL

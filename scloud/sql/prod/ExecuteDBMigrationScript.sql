@@ -1,6 +1,16 @@
-spool /Users/hrobert/dev/tmp/DBMigration1912.txt
-@/Users/hrobert/dev/utils/scloud/sql/tmp/DBMigration1912.sql
+--spool /Users/hrobert/dev/tmp/BeforeMigrate2007.txt
+--@/Users/hrobert/dev/utils/scloud/sql/tmp/BeforeMigrate2007.sql
+--spool off
+
+--spool /Users/hrobert/dev/tmp/BeforeMigrate2003_UpdateHelp.txt
+--@/Users/hrobert/dev/utils/scloud/sql/tmp/BeforeMigrate2003_UpdateHelp.sql
+--spool off
+
+
+spool /Users/hrobert/dev/tmp/DBMigration2007.txt
+@/Users/hrobert/dev/utils/scloud/sql/tmp/DBMigration2007.sql
 spool off
+
 
 --spool /Users/hrobert/dev/tmp/v19.09.02.txt
 --@/Users/hrobert/dev/utils/scloud/sql/tmp/v19.09.02.sql

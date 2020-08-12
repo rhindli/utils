@@ -1,0 +1,24 @@
+Se creaza un folder cu numele scdev unde va fi montat volumul:
+
+$ cd /
+$ sudo mkdir scdev
+
+Se identifica numele volumului
+
+$ lsblk
+
+Se monteaza volumul sub folderul creat
+
+$ sudo mount <nume-volum> /scdev
+
+Pentru ca volumul sa se monteze automat cand se face restart la intanta se adauga in fisierul /etc/fstab o linie cu id-ul volumului si parametri de mount
+
+UUID=<UUID> /scdev auto defaults,nofail 0 2
+
+Pentru a obtine id-ul volumului se ruleaza
+$ sudo blkid
+
+si se ia UUID-ul pentru numele identificat anterior.
+
+Exemplu de linie adaugata in /etc/fstab:
+UUID=bbf64c6d-bc15-4ae0-aa4c-608fd9820d95 /scdev auto defaults,nofail 0 2
