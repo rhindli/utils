@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;smon/src/main/webapp/WEB-INF/deploy/soweb&apos;" deleteContents="false" description="Delete resource &apos;smon/src/main/webapp/WEB-INF/deploy/soweb&apos;" element1="/smon/src/main/webapp/WEB-INF/deploy/soweb" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1578651229596"/>
+</session>

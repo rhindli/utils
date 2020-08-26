@@ -1,0 +1,18 @@
+1580918382401	Rename local variable 'changeLog'
+1580980269456	Delete element
+1580980277018	Delete element
+1580989109834	Rename local variable 'changeLogsByTenant'
+1580989155632	Rename local variable 'changeLogsOfTenant'
+1581068303617	Rename type 'DocumentLog'
+1581068412614	Rename type 'DocumentLogData'
+1581068505255	Rename type 'DocumentLogRecord'
+1581068539034	Rename method 'loadDocumentLogsFromQueueByTenant'
+1581068557761	Rename local variable 'documentLogsByTenant'
+1581068614355	Rename local variable 'tenantDocumentLogs'
+1581068633478	Rename local variable 'documentLogsByTenant'
+1581068651618	Rename local variable 'documentLogs'
+1581083897259	Rename local variable 'requestData'
+1581083914536	Rename local variable 'postDataWriter'
+1581087198351	Rename type 'QueuedDocumentLog'
+1581090472638	Rename local variable 'documentLog'
+1581090481820	Rename local variable 'changeLogRecord'

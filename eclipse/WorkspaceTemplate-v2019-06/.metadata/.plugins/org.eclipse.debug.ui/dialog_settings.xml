@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="EXT_FOLDER_SOURCE_LAST_SUBDIR_SETTING" value="false"/>
+	<section name="org.eclipse.debug.ui.STRING_VARIABLE_SELECTION_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="382"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="538"/>
+		<item key="DIALOG_X_ORIGIN" value="-6"/>
+		<item key="DIALOG_Y_ORIGIN" value="-183"/>
+	</section>
+	<section name="org.eclipse.debug.ui.sourcelookup.SourceLookupDialog">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="412"/>
+		<item key="DIALOG_X_ORIGIN" value="378"/>
+		<item key="DIALOG_Y_ORIGIN" value="126"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="1281"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value="org.eclipse.ant.AntLaunchConfigurationType, org.eclipse.buildship.core.launch.runconfiguration, org.glassfish.jst.server.GlassfishServerLaunchConfigurationType, org.eclipse.jdt.launching.localJavaApplication, "/>
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="523"/>
+		<item key="DIALOG_HEIGHT" value="877"/>
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="476"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SINGLE_LAUNCH_CONFIGURATION_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="682"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="702"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.PROJECT_SELECTION_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="289"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="377"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
+		<item key="DIALOG_WIDTH" value="313"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="416"/>
+	</section>
+	<section name="SHOW_COMMAND_LINE_DIALOG">
+		<item key="DIALOG_X_ORIGIN" value="482"/>
+		<item key="DIALOG_Y_ORIGIN" value="326"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="303"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

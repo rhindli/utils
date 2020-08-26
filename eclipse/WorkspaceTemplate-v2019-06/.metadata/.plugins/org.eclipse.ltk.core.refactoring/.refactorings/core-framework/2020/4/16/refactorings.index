@@ -1,0 +1,11 @@
+1586791199700	Rename local variable 'logFilter'
+1586791209008	Rename type 'SBSServiceAccessKeyFilter'
+1586791330484	Rename local variable 'logFilter'
+1586791359237	Rename local variable 'sbsDocumentLogLogs'
+1586791443824	Rename local variable 'logsFilter'
+1586791790300	Delete element
+1586793317485	Rename local variable 'info'
+1586865842511	Rename type 'MSBSTenantApp'
+1586867421725	Delete element
+1586867446781	Delete element
+1586882270704	Rename field 's_cache'

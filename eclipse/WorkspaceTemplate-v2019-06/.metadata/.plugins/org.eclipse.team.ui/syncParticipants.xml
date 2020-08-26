@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (sgap_ejb, swe..._package, sdei)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1591178624860">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="sgap_ejb, swe..._package, sdei" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/sgap_ejb" resourceType="4"/>
+<resources resourcePath="/sweb" resourceType="4"/>
+<resources resourcePath="/scwi_ejb" resourceType="4"/>
+<resources resourcePath="/sele_core" resourceType="4"/>
+<resources resourcePath="/pcsd_core" resourceType="4"/>
+<resources resourcePath="/smlm_core" resourceType="4"/>
+<resources resourcePath="/capi_ear_package" resourceType="4"/>
+<resources resourcePath="/smstr_core" resourceType="4"/>
+<resources resourcePath="/prks_core" resourceType="4"/>
+<resources resourcePath="/sdei_core" resourceType="4"/>
+<resources resourcePath="/pf64_core" resourceType="4"/>
+<resources resourcePath="/sweb_core" resourceType="4"/>
+<resources resourcePath="/server_ear_package" resourceType="4"/>
+<resources resourcePath="/swss_core" resourceType="4"/>
+<resources resourcePath="/capi_test_api" resourceType="4"/>
+<resources resourcePath="/capi" resourceType="4"/>
+<resources resourcePath="/prop_core" resourceType="4"/>
+<resources resourcePath="/pbit_ejb" resourceType="4"/>
+<resources resourcePath="/prds" resourceType="4"/>
+<resources resourcePath="/scwi" resourceType="4"/>
+<resources resourcePath="/pmed_core" resourceType="4"/>
+<resources resourcePath="/swms_ejb" resourceType="4"/>
+<resources resourcePath="/telnet" resourceType="4"/>
+<resources resourcePath="/capi_server" resourceType="4"/>
+<resources resourcePath="/sweb_ear_package" resourceType="4"/>
+<resources resourcePath="/pmod_core" resourceType="4"/>
+<resources resourcePath="/reporting_ejb" resourceType="4"/>
+<resources resourcePath="/reporting" resourceType="4"/>
+<resources resourcePath="/sweb_ejb" resourceType="4"/>
+<resources resourcePath="/sprc_core" resourceType="4"/>
+<resources resourcePath="/telnet_proxy" resourceType="4"/>
+<resources resourcePath="/soff_core" resourceType="4"/>
+<resources resourcePath="/core-framework" resourceType="4"/>
+<resources resourcePath="/sohh" resourceType="4"/>
+<resources resourcePath="/capi_core" resourceType="4"/>
+<resources resourcePath="/sgap_api" resourceType="4"/>
+<resources resourcePath="/scwi_ear_package" resourceType="4"/>
+<resources resourcePath="/sgap_ear_package" resourceType="4"/>
+<resources resourcePath="/stln_core" resourceType="4"/>
+<resources resourcePath="/sedi_core" resourceType="4"/>
+<resources resourcePath="/smag_core" resourceType="4"/>
+<resources resourcePath="/swms_ear_package" resourceType="4"/>
+<resources resourcePath="/webmodule_core_api" resourceType="4"/>
+<resources resourcePath="/sfxa_core" resourceType="4"/>
+<resources resourcePath="/strl" resourceType="4"/>
+<resources resourcePath="/stln_ejb" resourceType="4"/>
+<resources resourcePath="/sohh_ejb" resourceType="4"/>
+<resources resourcePath="/main_build_project" resourceType="4"/>
+<resources resourcePath="/pbit" resourceType="4"/>
+<resources resourcePath="/sprc" resourceType="4"/>
+<resources resourcePath="/smrp_core" resourceType="4"/>
+<resources resourcePath="/sohh_ear_package" resourceType="4"/>
+<resources resourcePath="/sprc_ejb" resourceType="4"/>
+<resources resourcePath="/strl_ear_package" resourceType="4"/>
+<resources resourcePath="/paur_core" resourceType="4"/>
+<resources resourcePath="/sicm_core" resourceType="4"/>
+<resources resourcePath="/swms" resourceType="4"/>
+<resources resourcePath="/telnet_ejb" resourceType="4"/>
+<resources resourcePath="/pirw_core" resourceType="4"/>
+<resources resourcePath="/strl_core" resourceType="4"/>
+<resources resourcePath="/sagr_core" resourceType="4"/>
+<resources resourcePath="/sems_core" resourceType="4"/>
+<resources resourcePath="/csec_core" resourceType="4"/>
+<resources resourcePath="/capi_ejb" resourceType="4"/>
+<resources resourcePath="/spos_core" resourceType="4"/>
+<resources resourcePath="/prds_ear_package" resourceType="4"/>
+<resources resourcePath="/server" resourceType="4"/>
+<resources resourcePath="/smon_core" resourceType="4"/>
+<resources resourcePath="/scld_core" resourceType="4"/>
+<resources resourcePath="/sfro_server" resourceType="4"/>
+<resources resourcePath="/reporting_ear_package" resourceType="4"/>
+<resources resourcePath="/scqm_core" resourceType="4"/>
+<resources resourcePath="/sdei_ear_package" resourceType="4"/>
+<resources resourcePath="/pbit_core" resourceType="4"/>
+<resources resourcePath="/sgap_core" resourceType="4"/>
+<resources resourcePath="/ssvc_core" resourceType="4"/>
+<resources resourcePath="/lib" resourceType="4"/>
+<resources resourcePath="/server_jar" resourceType="4"/>
+<resources resourcePath="/srpd_core" resourceType="4"/>
+<resources resourcePath="/smon" resourceType="4"/>
+<resources resourcePath="/prds_ejb" resourceType="4"/>
+<resources resourcePath="/sdei_ejb" resourceType="4"/>
+<resources resourcePath="/sfro_core" resourceType="4"/>
+<resources resourcePath="/sfxa_server" resourceType="4"/>
+<resources resourcePath="/sprc_ear_package" resourceType="4"/>
+<resources resourcePath="/core-business" resourceType="4"/>
+<resources resourcePath="/spos_proxy" resourceType="4"/>
+<resources resourcePath="/paer_core" resourceType="4"/>
+<resources resourcePath="/sobk_core" resourceType="4"/>
+<resources resourcePath="/scwi_proxy" resourceType="4"/>
+<resources resourcePath="/sfhu_core" resourceType="4"/>
+<resources resourcePath="/shrmWs" resourceType="4"/>
+<resources resourcePath="/capi_core_api" resourceType="4"/>
+<resources resourcePath="/sweb-themes" resourceType="4"/>
+<resources resourcePath="/sgap" resourceType="4"/>
+<resources resourcePath="/telnet_ear_package" resourceType="4"/>
+<resources resourcePath="/sprx" resourceType="4"/>
+<resources resourcePath="/stln" resourceType="4"/>
+<resources resourcePath="/model-generator" resourceType="4"/>
+<resources resourcePath="/prds_core" resourceType="4"/>
+<resources resourcePath="/swms_core" resourceType="4"/>
+<resources resourcePath="/sohh_core" resourceType="4"/>
+<resources resourcePath="/stln_common" resourceType="4"/>
+<resources resourcePath="/strl_ejb" resourceType="4"/>
+<resources resourcePath="/scwi_core" resourceType="4"/>
+<resources resourcePath="/pavg_core" resourceType="4"/>
+<resources resourcePath="/pbit_ear_package" resourceType="4"/>
+<resources resourcePath="/stln_ear_package" resourceType="4"/>
+<resources resourcePath="/sdei" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="/Users/hrobert/dev/workspace/scloud-gradle/socratecloud_erp_full/main_build_project/sweb" dstRev="MERGE_HEAD" inludeLocal="false" srcRev="HEAD"/>
+</data>
+</participant>
+</syncparticipants>

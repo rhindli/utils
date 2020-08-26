@@ -1,0 +1,5 @@
+1570175097267	Extract method 'exportAssets'
+1570194707850	Rename local variable 'componentDownloads'
+1570194748461	Rename local variable 'componentDownloads'
+1570196957916	Rename local variable 'activeComponentDownloadsByBP'
+1570196969483	Rename local variable 'activeComponentDownloads'

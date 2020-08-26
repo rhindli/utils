@@ -1,0 +1,11 @@
+1588664730853	Rename package 'com.bitsoftware.rest.webmoduleapi'
+1588664845937	Rename package 'com.bitsoftware.rest.webmodule'
+1588668892752	Rename type 'CAPIModuleAPI'
+1588668947816	Rename type 'SPlusLicModuleAPI'
+1588668979219	Rename type 'SPlusLicAPI'
+1588676817505	Rename type 'CAPIModuleServlet'
+1588680357028	Rename type 'SPlusLicModuleServlet'
+1588680968960	Delete element
+1588680979758	Rename type 'CAPIServlet'
+1588689980031	Delete element
+1588690002776	Rename type 'LicKeyServlet'

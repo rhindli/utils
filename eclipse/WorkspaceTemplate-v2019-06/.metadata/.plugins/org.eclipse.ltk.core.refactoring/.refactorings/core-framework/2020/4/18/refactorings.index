@@ -1,0 +1,70 @@
+1587973874472	Rename local variable 'memory'
+1587973907640	Rename local variable 'cacheReset'
+1587973939952	Rename local variable 'garbageCollector'
+1587973979308	Rename local variable 'getActivities'
+1587973986924	Rename local variable 'getDBConnections'
+1587973995526	Rename local variable 'getThreads'
+1587974005396	Rename local variable 'getLog'
+1587974015245	Rename local variable 'rotateLog'
+1587974022930	Rename local variable 'deleteLog'
+1587974059066	Rename local variable 'newLevel'
+1587974089853	Rename local variable 'isRunGarbageCollector'
+1587974114031	Rename local variable 'isGarbageCollector'
+1587988391389	Copy compilation unit
+1587988465579	Rename type 'DB_PostgresSQL'
+1587993291489	Copy compilation unit
+1587993434464	Copy compilation unit
+1587993444203	Rename type 'EJBSessionInfo'
+1587993670763	Delete element
+1587993831480	Copy compilation unit
+1587993875105	Move compilation unit
+1587993888067	Rename type 'WebModuleHttpRequestInfo'
+1587994608327	Rename local variable 'list'
+1587995321295	Copy compilation unit
+1587995358246	Move compilation unit
+1587995381816	Rename type 'WebModuleBlockedUserInfo'
+1587995456865	Copy compilation unit
+1587995532115	Rename type 'BlockedUserInfo'
+1587995570168	Rename type 'WebBlockedUserInfo'
+1587997868056	Move compilation units
+1587997879147	Delete element
+1587997882719	Delete element
+1587997885739	Delete element
+1587999744434	Rename type 'WebModuleAPICall'
+1588083742402	Rename type 'DataAdminParams'
+1588148002868	Move compilation unit
+1588152022547	Rename local variable 'json'
+1588172107654	Rename local variable 'SC_WebModule_ID'
+1588172641265	Rename local variable 'webModuleID'
+1588172906887	Rename local variable 'dataAllModules'
+1588234047559	Rename type 'WebModuleAdminService'
+1588234790346	Move compilation unit
+1588234843969	Move compilation units
+1588234891922	Move compilation unit
+1588234908478	Rename type 'GetDataAdminParams'
+1588235013405	Move compilation unit
+1588235048677	Rename type 'StartServerMonitorParams'
+1588251614656	Rename local variable 'ID'
+1588251636018	Rename local variable 'SC_WebModule_ID'
+1588251644880	Rename local variable 'name'
+1588251655852	Rename local variable 'SC_WebModule_ID'
+1588251691294	Rename local variable 'ID'
+1588251705715	Rename local variable 'is'
+1588253098139	Move compilation unit
+1588253108369	Delete element
+1588253143112	Delete element
+1588253147017	Delete element
+1588258248735	Rename local variable 'ID'
+1588258255332	Rename local variable 'ID'
+1588258900808	Rename type 'WebModuleCacheData'
+1588259808416	Rename local variable 'userId'
+1588259823611	Rename local variable 'name'
+1588261217773	Move compilation units
+1588261251906	Move compilation units
+1588261263594	Delete element
+1588261469209	Rename method 'cacheReset'
+1588261618623	Rename method 'resetCacheAll'
+1588261825065	Rename package 'com.bitsoftware.webmodule.api'
+1588261856665	Rename package 'com.bitsoftware.webmodule.api.util'
+1588261870154	Move compilation unit
+1588261877459	Delete element

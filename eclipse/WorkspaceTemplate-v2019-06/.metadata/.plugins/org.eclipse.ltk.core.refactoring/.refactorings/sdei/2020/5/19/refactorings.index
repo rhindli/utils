@@ -1,0 +1,5 @@
+1588669414111	Rename type 'CAPIModuleAPI'
+1588683030590	Rename type 'CAPIServlet'
+1588693383848	Delete element
+1588693394388	Rename type 'RESTServlet'
+1588693947985	Rename package 'org.bitsoftware.sdei.rest.webmodule'

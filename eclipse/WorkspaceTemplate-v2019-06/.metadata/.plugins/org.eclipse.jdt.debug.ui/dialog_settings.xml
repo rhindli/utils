@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="73"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="362"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="141"/>
+	<section name="conditionHistory">
+		<item key="conditionHistoryEntryCount" value="5"/>
+		<item key="conditionHistoryEntry_0" value="columnName.equals(&quot;DateLastAction&quot;)"/>
+		<item key="conditionHistoryEntry_1" value="lookupColumnName.equals(&quot;SalesRep_ID&quot;)"/>
+		<item key="conditionHistoryEntry_2" value="columnName.equals(&quot;SalesRep_ID&quot;)"/>
+		<item key="conditionHistoryEntry_3" value="columnName == &quot;SalesRep_ID&quot;"/>
+		<item key="conditionHistoryEntry_4" value="mdField.ColumnName.equals(&quot;M_PriceList_ID&quot;)"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="SashWeightTree" value="496"/>
+		<item key="SashWeightDetails" value="503"/>
+		<item key="WIDTH" value="600"/>
+		<item key="HEIGHT" value="156"/>
+	</section>
+	<section name="EXPRESSION_INPUT_DIALOG">
+		<item key="DIALOG_WIDTH" value="472"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="295"/>
+		<item key="DIALOG_X_ORIGIN" value="724"/>
+		<item key="DIALOG_Y_ORIGIN" value="332"/>
+	</section>
+	<section name="expressionHistory">
+	</section>
+</section>

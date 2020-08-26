@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;m_autocommitTrx&apos; in &apos;org.compiere.process.ColumnSync&apos; to &apos;m_autoCommitTrx&apos;&#x0A;- Original project: &apos;core-business&apos;&#x0A;- Original element: &apos;org.compiere.process.ColumnSync.m_autocommitTrx&apos;&#x0A;- Renamed element: &apos;org.compiere.process.ColumnSync.m_autoCommitTrx&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;m_autocommitTrx&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java&lt;org.compiere.process{ColumnSync.java[ColumnSync^m_autocommitTrx" name="m_autoCommitTrx" references="true" setter="false" stamp="1585038980043" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+add_generated_annotation=false
+add_nonnull_on_parameter=false
+add_nonnull_on_return=false
+eclipse.preferences.version=1

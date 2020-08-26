@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;2020-06-22--20-15-00_1064117.txt&apos; to &apos;2020-06-22--20-15-00_1064117.txt&apos;&#x0A;- Original project: &apos;main_build_project&apos;&#x0A;- Destination element: &apos;2020-06-22--20-15-00_1064117.txt&apos;&#x0A;- Original element: &apos;2020-06-22--20-15-00_1064117.txt&apos;" description="Copy file" element1="version_notes/change_log_v20.06.x/2020-06-22--20-15-00_1064117.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1592925557399" target="/main_build_project/version_notes/change_log_v20.06.x/2020-06-22--20-15-00_1064117.txt" units="0" version="1.0"/>
+</session>

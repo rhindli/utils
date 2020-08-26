@@ -1,0 +1,485 @@
+
+/*
+ * Initialize main_build_project root directory
+ */
+ext.main_build_project_rootDir = rootDir
+while(!'main_build_project'.equalsIgnoreCase(main_build_project_rootDir.name))
+{
+	ext.main_build_project_rootDir = main_build_project_rootDir.parentFile
+}
+
+/** Extra core projects */
+ext.extra_core_projects = [
+	'capi_core',
+	'csec_core',
+	'paer_core',
+	'paur_core',
+	'pavg_core',
+	'pbit_core',
+	'pcsd_core',
+	'pf64_core',
+	'pirw_core',
+	'pmed_core',
+    'pmod_core',
+	'prds_core',
+	'prks_core',
+	'prop_core',
+	'sagr_core',
+	'scld_core',
+	'scqm_core',
+	'scwi_core',
+	'sdei_core',
+	'sedi_core',
+	'sele_core',
+	'sems_core',
+	'sfhu_core',
+	'sfro_core',
+	'sfxa_core',
+	'sgap_core',
+	'sicm_core',
+	'smag_core',
+	'smlm_core',
+	'smon_core',
+	'smrp_core',
+	'smstr_core',
+	'sobk_core',
+	'soff_core',
+	'sohh_core',
+	'spos_core',
+	'sprc_core',
+	'srpd_core',
+	'stln_common',
+	'stln_core',
+	'strl_core',
+	'sweb_core',
+	'swms_core',
+	'swss_core',
+	'ssvc_core'
+]
+
+/** Project settings */
+ext.projectSettings = [
+	'capi' : [
+		dependencies: ['core-business', 'capi_core', 'capi_core_api', 'swss_core', 'sdei_core', 'webmodule_core_api', 'capi_test_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/capi")
+	],
+	'capi_core' : [
+		dependencies: ['core-business', 'swss_core', 'sdei_core'],
+		dir: file("$main_build_project_rootDir/capi/capi_core")
+	],
+	'capi_core_api' : [
+		dependencies: ['core-framework', 'sdei_core'],
+		dir: file("$main_build_project_rootDir/capi/capi_core_api")
+	],
+	'capi_server' : [
+		dependencies: ['core-business', 'server_jar', 'capi_core'],
+		dir: file("$main_build_project_rootDir/capi/capi_server")
+	],
+	'capi_test_api' : [
+		dependencies: ['core-business', 'capi_core_api', 'capi_core', 'swss_core', 'sdei_core', 'server_jar'],
+		dir: file("$main_build_project_rootDir/capi/capi_test_api")
+	],
+	'core-business' : [
+		dependencies: ['core-framework'],
+		dir: file("$main_build_project_rootDir/core-business")
+	],
+	'core-framework' : [
+		dependencies: ['lib'],
+		dir: file("$main_build_project_rootDir/core-framework")
+	],
+	'csec_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/csec_core")
+	],
+	'lib' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/lib")
+	],
+	'paer_core' : [
+		dependencies: ['core-business', 'sedi_core', 'sfxa_core'],
+		dir: file("$main_build_project_rootDir/paer_core")
+	],
+	'paur_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/paur_core")
+	],
+	'pavg_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/pavg_core")
+	],
+	'pbit' : [
+		dependencies: ['core-business', 'swss_core', 'pbit_core', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/pbit")
+	],
+	'pbit_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/pbit/pbit_core")
+	],
+	'pcsd_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/pcsd_core")
+	],
+	'pf64_core' : [
+		dependencies: ['core-business', 'swss_core', 'sdei_core', 'sfro_core'],
+		dir: file("$main_build_project_rootDir/pf64_core")
+	],
+	'pirw_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/pirw_core")
+	],
+	'pmed_core' : [
+		dependencies: ['core-business', 'sfxa_core', 'smrp_core'],
+		dir: file("$main_build_project_rootDir/pmed_core")
+	],
+    'pmod_core' : [
+        dependencies: ['core-business'],
+        dir: file("$main_build_project_rootDir/pmod_core")
+    ],
+	'prds' : [
+		dependencies: ['core-business', 'scwi_core', 'prds_core', 'capi_core_api', 'webmodule_core_api', 'capi_test_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/prds")
+	],
+	'prds_core' : [
+		dependencies: ['core-business', 'sfxa_core', 'scwi_core'],
+		dir: file("$main_build_project_rootDir/prds/prds_core")
+	],
+	'prks_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/prks_core")
+	],
+	'prop_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/prop_core")
+	],
+	'reporting' : [
+		dependencies: ['core-business', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/reporting")
+	],
+	'sagr_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sagr_core")
+	],
+	'scld_core' : [
+		dependencies: ['core-framework'],
+		dir: file("$main_build_project_rootDir/scld_core")
+	],
+	'scqm_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/scqm_core")
+	],
+	'scwi' : [
+		dependencies: ['core-business', 'stln_core', 'stln_common', 'swms_core', 'scwi_core', 'capi_core_api', 'webmodule_core_api', 'capi_test_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/scwi")
+	],
+	'scwi_core' : [
+		dependencies: ['core-business', 'stln_core', 'stln_common', 'swms_core'],
+		dir: file("$main_build_project_rootDir/scwi/scwi_core")
+	],
+	'scwi_proxy' : [
+		dependencies: ['core-business', 'stln_core', 'stln_common', 'swms_core', 'sprx'],
+		dir: file("$main_build_project_rootDir/scwi/scwi_proxy")
+	],
+	'sdei' : [
+		dependencies: ['core-business', 'sdei_core', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/sdei")
+	],
+	'sdei_core' : [
+		dependencies: ['core-business', 'swss_core'],
+		dir: file("$main_build_project_rootDir/sdei/sdei_core")
+	],
+	'sedi_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sedi_core")
+	],
+	'sele_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sele_core")
+	],
+	'sems_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sems_core")
+	],
+	'server' : [
+		dependencies: ['server_jar', 'capi_server', 'sfro_server', 'sfxa_server', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/server")
+	],
+	'server_jar' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/server/server_jar")
+	],
+	'sfhu_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sfhu_core")
+	],
+	'sfro_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sfro_server/sfro_core")
+	],
+	'sfro_server' : [
+		dependencies: ['core-business', 'server_jar', 'sfro_core'],
+		dir: file("$main_build_project_rootDir/sfro_server")
+	],
+	'sfxa_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sfxa_server/sfxa_core")
+	],
+	'sfxa_server' : [
+		dependencies: ['core-business', 'server_jar', 'sfxa_core'],
+		dir: file("$main_build_project_rootDir/sfxa_server")
+	],
+	'sgap' : [
+		dependencies: ['core-business', 'sgap_api', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/sgap")
+	],
+	'sgap_api' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sgap/sgap_api")
+	],
+	'sgap_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sgap/sgap_core")
+	],
+	'sicm_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sicm_core")
+	],
+	'shrmWs' : [
+		dependencies: ['core-business', 'swss_core']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/shrmWs")
+	],
+	'smag_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/smag_core")
+	],
+	'smlm_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/smlm_core")
+	],
+	'smon' : [
+		dependencies: ['core-business', 'smon_core', 'sweb-themes', 'capi_core_api', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/smon")
+	],
+	'smon_core' : [
+		dependencies: ['core-business', 'sweb_core'],
+		dir: file("$main_build_project_rootDir/smon/smon_core")
+	],
+	'smrp_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/smrp_core")
+	],
+	'smstr_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/smstr_core")
+	],
+	'sobk_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sobk_core")
+	],
+	'soff_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/soff_core")
+	],
+	'sohh' : [
+		dependencies: ['core-business', 'sohh_core', 'swss_core', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/sohh")
+	],
+	'sohh_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sohh/sohh_core")
+	],
+	'spos_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/spos_core")
+	],
+	'spos_proxy' : [
+		dependencies: ['core-business', 'sprx', 'spos_core'],
+		dir: file("$main_build_project_rootDir/spos_proxy")
+	],
+	'sprc' : [
+		dependencies: ['core-business', 'sprc_core', 'capi_core_api', 'webmodule_core_api', 'capi_test_api', 'sprc_ear_package']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/sprc")
+	],
+	'sprc_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sprc/sprc_core")
+	],
+	'sprc_ear_package' : [
+		dependencies: ['sprc_ejb'],
+		dir: file("$main_build_project_rootDir/sprc/sprc_ear_package")
+	],
+	'sprc_ejb' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sprc/sprc_ejb")
+	],
+	'sprx' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/sprx")
+	],
+	'srpd_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/srpd_core")
+	],
+	'stln' : [
+		dependencies: ['core-business', 'stln_common', 'stln_core', 'capi_core_api', 'webmodule_core_api', 'capi_test_api', 'stln_ear_package']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/stln")
+	],
+	'stln_common' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/stln/stln_common")
+	],
+	'stln_core' : [
+		dependencies: ['core-business', 'stln_common'],
+		dir: file("$main_build_project_rootDir/stln/stln_core")
+	],
+	'stln_ear_package' : [
+		dependencies: ['stln_ejb'],
+		dir: file("$main_build_project_rootDir/stln/stln_ear_package")
+	],
+	'stln_ejb' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/stln/stln_ejb")
+	],
+	'strl' : [
+		dependencies: ['strl_core', 'webmodule_core_api', 'strl_ear_package']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/strl")
+	],
+	'strl_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/strl/strl_core")
+	],
+	'strl_ear_package' : [
+		dependencies: ['strl_ejb'],
+		dir: file("$main_build_project_rootDir/strl/strl_ear_package")
+	],
+	'strl_ejb' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/strl/strl_ejb")
+	],
+	'sweb' : [
+		dependencies: ['core-business', 'sweb-themes', 'sweb_core', 'webmodule_core_api']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/sweb")
+	],
+	'sweb-themes' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/sweb-themes")
+	],
+	'sweb_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/sweb/sweb_core")
+	],
+	'swms' : [
+		dependencies: ['core-business', 'capi_core_api', 'swms_core', 'webmodule_core_api', 'capi_test_api', 'swms_ear_package']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/swms")
+	],
+	'swms_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/swms/swms_core")
+	],
+	'swms_ear_package' : [
+		dependencies: ['swms_ejb'],
+		dir: file("$main_build_project_rootDir/swms/swms_ear_package")
+	],
+	'swms_ejb' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/swms/swms_ejb")
+	],
+	'swss_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/swss_core")
+	],
+	'ssvc_core' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/ssvc_core")
+	],	
+	'telnet' : [
+		dependencies: ['core-business', 'capi_core_api', 'stln_common', 'stln_core', 'webmodule_core_api', 'telnet_ear_package']
+						+ ext.extra_core_projects,
+		dir: file("$main_build_project_rootDir/telnet")
+	],
+	'telnet_ear_package' : [
+		dependencies: ['telnet_ejb'],
+		dir: file("$main_build_project_rootDir/telnet/telnet_ear_package")
+	],
+	'telnet_ejb' : [
+		dependencies: ['core-business'],
+		dir: file("$main_build_project_rootDir/telnet/telnet_ejb")
+	],
+	'telnet_proxy' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/telnet/telnet_proxy")
+	],
+	'webmodule_core_api' : [
+		dependencies: [],
+		dir: file("$main_build_project_rootDir/webmodule_core_api")
+	]
+]
+
+
+/*
+ * Retrieves recursively all project dependencies of the specified project
+ *
+ * projectName - project name for which to retrieve project dependencies 
+ * Return - Set with project names
+ */
+ext.fillProjectDependencies = { String projectName, Set<String> dependenciesCollector ->
+	projectSettings[projectName].dependencies.each { depProjectName ->
+		if(!dependenciesCollector.contains(depProjectName)) //check if already added to avoid dependency loop
+		{
+			dependenciesCollector.add depProjectName
+			ext.fillProjectDependencies(depProjectName, dependenciesCollector)
+		}
+	}
+}
+
+/*
+ * Get project dependencies of the specified projects recursively
+ *
+ * Return - Set with project names
+ */
+ext.getProjectDependenciesRecursive = { String... projectNames ->
+	def dependenciesCollector = [] as Set
+	
+	if(projectNames.contains('main_build_project'))
+	{
+		dependenciesCollector.addAll projectSettings.keySet()
+	}
+	else
+	{
+		projectNames.each { projectName ->
+			projectSettings[projectName].dependencies.each { depProjectName ->
+				if(!dependenciesCollector.contains(depProjectName)) //check if already added to avoid dependency loop
+				{
+					dependenciesCollector.add depProjectName
+					ext.fillProjectDependencies(depProjectName, dependenciesCollector)
+				}
+			}
+		}
+	}
+			
+	return dependenciesCollector
+}
+
+/** Include project dependencies */
+ext.includeProjectDependencies = {
+
+	getProjectDependenciesRecursive(rootProject.name).each { projectName ->
+		include projectName
+		project(":$projectName").projectDir = projectSettings[projectName].dir
+	}
+}

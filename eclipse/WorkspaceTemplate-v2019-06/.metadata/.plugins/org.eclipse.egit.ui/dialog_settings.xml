@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CommitDialog.showUntracked" value="true"/>
+	<item key="ResetTargetSelectionDialog.resetType" value="HARD"/>
+	<list key="CommitDialog.authorValues">
+		<item value="rhindli &lt;robert.hindli@bitsoftware.ro&gt;"/>
+		<item value="rhindli &lt;robert.hindli@bbuild 7itsoftware.ro&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="rhindli &lt;robert.hindli@bitsoftware.ro&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.DeleteBranchDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_X_ORIGIN" value="453"/>
+		<item key="DIALOG_Y_ORIGIN" value="130"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="650"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_X_ORIGIN" value="315"/>
+		<item key="DIALOG_Y_ORIGIN" value="107"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="-130"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="736"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_X_ORIGIN" value="544"/>
+		<item key="DIALOG_Y_ORIGIN" value="104"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="576"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_X_ORIGIN" value="672"/>
+		<item key="DIALOG_Y_ORIGIN" value="218"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="686"/>
+		<item key="DIALOG_X_ORIGIN" value="698"/>
+		<item key="DIALOG_Y_ORIGIN" value="71"/>
+	</section>
+	<section name="GitCommitSearchPage">
+		<item key="HISTORY_SIZE" value="6"/>
+		<section name="HISTORY4">
+			<section name="searchSection">
+				<item key="repository18" value="/Users/hrobert/dev/workspace/scloud/pmed/.git"/>
+				<item key="repository17" value="/Users/hrobert/dev/workspace/scloud/pirw/.git"/>
+				<item key="repository19" value="/Users/hrobert/dev/workspace/scloud/prds/.git"/>
+				<item key="repository14" value="/Users/hrobert/dev/workspace/scloud/pbit/.git"/>
+				<item key="repositoryCount" value="58"/>
+				<item key="repository13" value="/Users/hrobert/dev/workspace/scloud/pavg/.git"/>
+				<item key="repository57" value="/Users/hrobert/dev/workspace/scloud/swss/.git"/>
+				<item key="repository16" value="/Users/hrobert/dev/workspace/scloud/pf64/.git"/>
+				<item key="repository15" value="/Users/hrobert/dev/workspace/scloud/pcsd/.git"/>
+				<item key="repository10" value="/Users/hrobert/dev/workspace/scloud/lib/.git"/>
+				<item key="repository54" value="/Users/hrobert/dev/workspace/scloud/sweb/.git"/>
+				<item key="repository53" value="/Users/hrobert/dev/workspace/scloud/strl/.git"/>
+				<item key="repository12" value="/Users/hrobert/dev/workspace/scloud/paur/.git"/>
+				<item key="repository56" value="/Users/hrobert/dev/workspace/scloud/swms/.git"/>
+				<item key="repository11" value="/Users/hrobert/dev/workspace/scloud/paer/.git"/>
+				<item key="repository55" value="/Users/hrobert/dev/workspace/scloud/sweb-themes/.git"/>
+				<item key="repository50" value="/Users/hrobert/dev/workspace/scloud/sprx/.git"/>
+				<item key="matchTree" value="true"/>
+				<item key="repository52" value="/Users/hrobert/dev/workspace/scloud/stln/.git"/>
+				<item key="repository51" value="/Users/hrobert/dev/workspace/scloud/srpd/.git"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="repository47" value="/Users/hrobert/dev/workspace/scloud/sohh/.git"/>
+				<item key="repository46" value="/Users/hrobert/dev/workspace/scloud/soff/.git"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/capi/.git"/>
+				<item key="repository49" value="/Users/hrobert/dev/workspace/scloud/sprc/.git"/>
+				<item key="repository1" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="repository48" value="/Users/hrobert/dev/workspace/scloud/spos/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="repository43" value="/Users/hrobert/dev/workspace/scloud/smstr/.git"/>
+				<item key="repository42" value="/Users/hrobert/dev/workspace/scloud/smrp/.git"/>
+				<item key="repository45" value="/Users/hrobert/dev/workspace/scloud/sobk/.git"/>
+				<item key="repository44" value="/Users/hrobert/dev/workspace/scloud/smstrWS/.git"/>
+				<item key="repository6" value="/Users/hrobert/dev/workspace/scloud/extend/.git"/>
+				<item key="repository7" value="/Users/hrobert/dev/workspace/scloud/installer/.git"/>
+				<item key="repository8" value="/Users/hrobert/dev/workspace/scloud/jclient/.git"/>
+				<item key="repository41" value="/Users/hrobert/dev/workspace/scloud/smon/.git"/>
+				<item key="repository9" value="/Users/hrobert/dev/workspace/scloud/jclientEar/.git"/>
+				<item key="repository40" value="/Users/hrobert/dev/workspace/scloud/smob/.git"/>
+				<item key="repository2" value="/Users/hrobert/dev/workspace/scloud/core-framework/.git"/>
+				<item key="repository3" value="/Users/hrobert/dev/workspace/scloud/csec/.git"/>
+				<item key="repository4" value="/Users/hrobert/dev/workspace/scloud/db/.git"/>
+				<item key="repository5" value="/Users/hrobert/dev/workspace/scloud/dev/.git"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository39" value="/Users/hrobert/dev/workspace/scloud/smlm/.git"/>
+				<item key="repository36" value="/Users/hrobert/dev/workspace/scloud/shrmWs/.git"/>
+				<item key="repository35" value="/Users/hrobert/dev/workspace/scloud/sgap/.git"/>
+				<item key="repository38" value="/Users/hrobert/dev/workspace/scloud/smag/.git"/>
+				<item key="repository37" value="/Users/hrobert/dev/workspace/scloud/sicm/.git"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="repository32" value="/Users/hrobert/dev/workspace/scloud/sfhu/.git"/>
+				<item key="repository31" value="/Users/hrobert/dev/workspace/scloud/server/.git"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="repository34" value="/Users/hrobert/dev/workspace/scloud/sfxa/.git"/>
+				<item key="repository33" value="/Users/hrobert/dev/workspace/scloud/sfro/.git"/>
+				<item key="repository30" value="/Users/hrobert/dev/workspace/scloud/sems/.git"/>
+				<item key="textPattern" value="1049920"/>
+				<item key="repository29" value="/Users/hrobert/dev/workspace/scloud/sele/.git"/>
+				<item key="repository28" value="/Users/hrobert/dev/workspace/scloud/sedi/.git"/>
+				<item key="repository25" value="/Users/hrobert/dev/workspace/scloud/scwi/.git"/>
+				<item key="repository24" value="/Users/hrobert/dev/workspace/scloud/scqm/.git"/>
+				<item key="repository27" value="/Users/hrobert/dev/workspace/scloud/sdwh/.git"/>
+				<item key="repository26" value="/Users/hrobert/dev/workspace/scloud/sdei/.git"/>
+				<item key="repository21" value="/Users/hrobert/dev/workspace/scloud/reporting/.git"/>
+				<item key="repository20" value="/Users/hrobert/dev/workspace/scloud/prks/.git"/>
+				<item key="matchParents" value="true"/>
+				<item key="repository23" value="/Users/hrobert/dev/workspace/scloud/scld/.git"/>
+				<item key="repository22" value="/Users/hrobert/dev/workspace/scloud/sagr/.git"/>
+			</section>
+		</section>
+		<section name="HISTORY5">
+			<section name="searchSection">
+				<item key="repository18" value="/Users/hrobert/dev/workspace/scloud/pmed/.git"/>
+				<item key="repository17" value="/Users/hrobert/dev/workspace/scloud/pirw/.git"/>
+				<item key="repository19" value="/Users/hrobert/dev/workspace/scloud/prds/.git"/>
+				<item key="repository14" value="/Users/hrobert/dev/workspace/scloud/pbit/.git"/>
+				<item key="repositoryCount" value="58"/>
+				<item key="repository13" value="/Users/hrobert/dev/workspace/scloud/pavg/.git"/>
+				<item key="repository57" value="/Users/hrobert/dev/workspace/scloud/swss/.git"/>
+				<item key="repository16" value="/Users/hrobert/dev/workspace/scloud/pf64/.git"/>
+				<item key="repository15" value="/Users/hrobert/dev/workspace/scloud/pcsd/.git"/>
+				<item key="repository10" value="/Users/hrobert/dev/workspace/scloud/lib/.git"/>
+				<item key="repository54" value="/Users/hrobert/dev/workspace/scloud/sweb/.git"/>
+				<item key="repository53" value="/Users/hrobert/dev/workspace/scloud/strl/.git"/>
+				<item key="repository12" value="/Users/hrobert/dev/workspace/scloud/paur/.git"/>
+				<item key="repository56" value="/Users/hrobert/dev/workspace/scloud/swms/.git"/>
+				<item key="repository11" value="/Users/hrobert/dev/workspace/scloud/paer/.git"/>
+				<item key="repository55" value="/Users/hrobert/dev/workspace/scloud/sweb-themes/.git"/>
+				<item key="repository50" value="/Users/hrobert/dev/workspace/scloud/sprx/.git"/>
+				<item key="matchTree" value="true"/>
+				<item key="repository52" value="/Users/hrobert/dev/workspace/scloud/stln/.git"/>
+				<item key="repository51" value="/Users/hrobert/dev/workspace/scloud/srpd/.git"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="repository47" value="/Users/hrobert/dev/workspace/scloud/sohh/.git"/>
+				<item key="repository46" value="/Users/hrobert/dev/workspace/scloud/soff/.git"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/capi/.git"/>
+				<item key="repository49" value="/Users/hrobert/dev/workspace/scloud/sprc/.git"/>
+				<item key="repository1" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="repository48" value="/Users/hrobert/dev/workspace/scloud/spos/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="repository43" value="/Users/hrobert/dev/workspace/scloud/smstr/.git"/>
+				<item key="repository42" value="/Users/hrobert/dev/workspace/scloud/smrp/.git"/>
+				<item key="repository45" value="/Users/hrobert/dev/workspace/scloud/sobk/.git"/>
+				<item key="repository44" value="/Users/hrobert/dev/workspace/scloud/smstrWS/.git"/>
+				<item key="repository6" value="/Users/hrobert/dev/workspace/scloud/extend/.git"/>
+				<item key="repository7" value="/Users/hrobert/dev/workspace/scloud/installer/.git"/>
+				<item key="repository8" value="/Users/hrobert/dev/workspace/scloud/jclient/.git"/>
+				<item key="repository41" value="/Users/hrobert/dev/workspace/scloud/smon/.git"/>
+				<item key="repository9" value="/Users/hrobert/dev/workspace/scloud/jclientEar/.git"/>
+				<item key="repository40" value="/Users/hrobert/dev/workspace/scloud/smob/.git"/>
+				<item key="repository2" value="/Users/hrobert/dev/workspace/scloud/core-framework/.git"/>
+				<item key="repository3" value="/Users/hrobert/dev/workspace/scloud/csec/.git"/>
+				<item key="repository4" value="/Users/hrobert/dev/workspace/scloud/db/.git"/>
+				<item key="repository5" value="/Users/hrobert/dev/workspace/scloud/dev/.git"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository39" value="/Users/hrobert/dev/workspace/scloud/smlm/.git"/>
+				<item key="repository36" value="/Users/hrobert/dev/workspace/scloud/shrmWs/.git"/>
+				<item key="repository35" value="/Users/hrobert/dev/workspace/scloud/sgap/.git"/>
+				<item key="repository38" value="/Users/hrobert/dev/workspace/scloud/smag/.git"/>
+				<item key="repository37" value="/Users/hrobert/dev/workspace/scloud/sicm/.git"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="repository32" value="/Users/hrobert/dev/workspace/scloud/sfhu/.git"/>
+				<item key="repository31" value="/Users/hrobert/dev/workspace/scloud/server/.git"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="repository34" value="/Users/hrobert/dev/workspace/scloud/sfxa/.git"/>
+				<item key="repository33" value="/Users/hrobert/dev/workspace/scloud/sfro/.git"/>
+				<item key="repository30" value="/Users/hrobert/dev/workspace/scloud/sems/.git"/>
+				<item key="textPattern" value="1049175"/>
+				<item key="repository29" value="/Users/hrobert/dev/workspace/scloud/sele/.git"/>
+				<item key="repository28" value="/Users/hrobert/dev/workspace/scloud/sedi/.git"/>
+				<item key="repository25" value="/Users/hrobert/dev/workspace/scloud/scwi/.git"/>
+				<item key="repository24" value="/Users/hrobert/dev/workspace/scloud/scqm/.git"/>
+				<item key="repository27" value="/Users/hrobert/dev/workspace/scloud/sdwh/.git"/>
+				<item key="repository26" value="/Users/hrobert/dev/workspace/scloud/sdei/.git"/>
+				<item key="repository21" value="/Users/hrobert/dev/workspace/scloud/reporting/.git"/>
+				<item key="repository20" value="/Users/hrobert/dev/workspace/scloud/prks/.git"/>
+				<item key="matchParents" value="true"/>
+				<item key="repository23" value="/Users/hrobert/dev/workspace/scloud/scld/.git"/>
+				<item key="repository22" value="/Users/hrobert/dev/workspace/scloud/sagr/.git"/>
+			</section>
+		</section>
+		<section name="HISTORY2">
+			<section name="searchSection">
+				<item key="repository18" value="/Users/hrobert/dev/workspace/scloud/pmed/.git"/>
+				<item key="repository17" value="/Users/hrobert/dev/workspace/scloud/pirw/.git"/>
+				<item key="repository19" value="/Users/hrobert/dev/workspace/scloud/prds/.git"/>
+				<item key="repository14" value="/Users/hrobert/dev/workspace/scloud/pbit/.git"/>
+				<item key="repositoryCount" value="58"/>
+				<item key="repository13" value="/Users/hrobert/dev/workspace/scloud/pavg/.git"/>
+				<item key="repository57" value="/Users/hrobert/dev/workspace/scloud/swss/.git"/>
+				<item key="repository16" value="/Users/hrobert/dev/workspace/scloud/pf64/.git"/>
+				<item key="repository15" value="/Users/hrobert/dev/workspace/scloud/pcsd/.git"/>
+				<item key="repository10" value="/Users/hrobert/dev/workspace/scloud/lib/.git"/>
+				<item key="repository54" value="/Users/hrobert/dev/workspace/scloud/sweb/.git"/>
+				<item key="repository53" value="/Users/hrobert/dev/workspace/scloud/strl/.git"/>
+				<item key="repository12" value="/Users/hrobert/dev/workspace/scloud/paur/.git"/>
+				<item key="repository56" value="/Users/hrobert/dev/workspace/scloud/swms/.git"/>
+				<item key="repository11" value="/Users/hrobert/dev/workspace/scloud/paer/.git"/>
+				<item key="repository55" value="/Users/hrobert/dev/workspace/scloud/sweb-themes/.git"/>
+				<item key="repository50" value="/Users/hrobert/dev/workspace/scloud/sprx/.git"/>
+				<item key="matchTree" value="true"/>
+				<item key="repository52" value="/Users/hrobert/dev/workspace/scloud/stln/.git"/>
+				<item key="repository51" value="/Users/hrobert/dev/workspace/scloud/srpd/.git"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="repository47" value="/Users/hrobert/dev/workspace/scloud/sohh/.git"/>
+				<item key="repository46" value="/Users/hrobert/dev/workspace/scloud/soff/.git"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/capi/.git"/>
+				<item key="repository49" value="/Users/hrobert/dev/workspace/scloud/sprc/.git"/>
+				<item key="repository1" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="repository48" value="/Users/hrobert/dev/workspace/scloud/spos/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="repository43" value="/Users/hrobert/dev/workspace/scloud/smstr/.git"/>
+				<item key="repository42" value="/Users/hrobert/dev/workspace/scloud/smrp/.git"/>
+				<item key="repository45" value="/Users/hrobert/dev/workspace/scloud/sobk/.git"/>
+				<item key="repository44" value="/Users/hrobert/dev/workspace/scloud/smstrWS/.git"/>
+				<item key="repository6" value="/Users/hrobert/dev/workspace/scloud/extend/.git"/>
+				<item key="repository7" value="/Users/hrobert/dev/workspace/scloud/installer/.git"/>
+				<item key="repository8" value="/Users/hrobert/dev/workspace/scloud/jclient/.git"/>
+				<item key="repository41" value="/Users/hrobert/dev/workspace/scloud/smon/.git"/>
+				<item key="repository9" value="/Users/hrobert/dev/workspace/scloud/jclientEar/.git"/>
+				<item key="repository40" value="/Users/hrobert/dev/workspace/scloud/smob/.git"/>
+				<item key="repository2" value="/Users/hrobert/dev/workspace/scloud/core-framework/.git"/>
+				<item key="repository3" value="/Users/hrobert/dev/workspace/scloud/csec/.git"/>
+				<item key="repository4" value="/Users/hrobert/dev/workspace/scloud/db/.git"/>
+				<item key="repository5" value="/Users/hrobert/dev/workspace/scloud/dev/.git"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository39" value="/Users/hrobert/dev/workspace/scloud/smlm/.git"/>
+				<item key="repository36" value="/Users/hrobert/dev/workspace/scloud/shrmWs/.git"/>
+				<item key="repository35" value="/Users/hrobert/dev/workspace/scloud/sgap/.git"/>
+				<item key="repository38" value="/Users/hrobert/dev/workspace/scloud/smag/.git"/>
+				<item key="repository37" value="/Users/hrobert/dev/workspace/scloud/sicm/.git"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="repository32" value="/Users/hrobert/dev/workspace/scloud/sfhu/.git"/>
+				<item key="repository31" value="/Users/hrobert/dev/workspace/scloud/server/.git"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="repository34" value="/Users/hrobert/dev/workspace/scloud/sfxa/.git"/>
+				<item key="repository33" value="/Users/hrobert/dev/workspace/scloud/sfro/.git"/>
+				<item key="repository30" value="/Users/hrobert/dev/workspace/scloud/sems/.git"/>
+				<item key="textPattern" value="1050087"/>
+				<item key="repository29" value="/Users/hrobert/dev/workspace/scloud/sele/.git"/>
+				<item key="repository28" value="/Users/hrobert/dev/workspace/scloud/sedi/.git"/>
+				<item key="repository25" value="/Users/hrobert/dev/workspace/scloud/scwi/.git"/>
+				<item key="repository24" value="/Users/hrobert/dev/workspace/scloud/scqm/.git"/>
+				<item key="repository27" value="/Users/hrobert/dev/workspace/scloud/sdwh/.git"/>
+				<item key="repository26" value="/Users/hrobert/dev/workspace/scloud/sdei/.git"/>
+				<item key="repository21" value="/Users/hrobert/dev/workspace/scloud/reporting/.git"/>
+				<item key="repository20" value="/Users/hrobert/dev/workspace/scloud/prks/.git"/>
+				<item key="matchParents" value="true"/>
+				<item key="repository23" value="/Users/hrobert/dev/workspace/scloud/scld/.git"/>
+				<item key="repository22" value="/Users/hrobert/dev/workspace/scloud/sagr/.git"/>
+			</section>
+		</section>
+		<section name="HISTORY3">
+			<section name="searchSection">
+				<item key="repository18" value="/Users/hrobert/dev/workspace/scloud/pmed/.git"/>
+				<item key="repository17" value="/Users/hrobert/dev/workspace/scloud/pirw/.git"/>
+				<item key="repository19" value="/Users/hrobert/dev/workspace/scloud/prds/.git"/>
+				<item key="repository14" value="/Users/hrobert/dev/workspace/scloud/pbit/.git"/>
+				<item key="repositoryCount" value="58"/>
+				<item key="repository13" value="/Users/hrobert/dev/workspace/scloud/pavg/.git"/>
+				<item key="repository57" value="/Users/hrobert/dev/workspace/scloud/swss/.git"/>
+				<item key="repository16" value="/Users/hrobert/dev/workspace/scloud/pf64/.git"/>
+				<item key="repository15" value="/Users/hrobert/dev/workspace/scloud/pcsd/.git"/>
+				<item key="repository10" value="/Users/hrobert/dev/workspace/scloud/lib/.git"/>
+				<item key="repository54" value="/Users/hrobert/dev/workspace/scloud/sweb/.git"/>
+				<item key="repository53" value="/Users/hrobert/dev/workspace/scloud/strl/.git"/>
+				<item key="repository12" value="/Users/hrobert/dev/workspace/scloud/paur/.git"/>
+				<item key="repository56" value="/Users/hrobert/dev/workspace/scloud/swms/.git"/>
+				<item key="repository11" value="/Users/hrobert/dev/workspace/scloud/paer/.git"/>
+				<item key="repository55" value="/Users/hrobert/dev/workspace/scloud/sweb-themes/.git"/>
+				<item key="repository50" value="/Users/hrobert/dev/workspace/scloud/sprx/.git"/>
+				<item key="matchTree" value="true"/>
+				<item key="repository52" value="/Users/hrobert/dev/workspace/scloud/stln/.git"/>
+				<item key="repository51" value="/Users/hrobert/dev/workspace/scloud/srpd/.git"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="repository47" value="/Users/hrobert/dev/workspace/scloud/sohh/.git"/>
+				<item key="repository46" value="/Users/hrobert/dev/workspace/scloud/soff/.git"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/capi/.git"/>
+				<item key="repository49" value="/Users/hrobert/dev/workspace/scloud/sprc/.git"/>
+				<item key="repository1" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="repository48" value="/Users/hrobert/dev/workspace/scloud/spos/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="repository43" value="/Users/hrobert/dev/workspace/scloud/smstr/.git"/>
+				<item key="repository42" value="/Users/hrobert/dev/workspace/scloud/smrp/.git"/>
+				<item key="repository45" value="/Users/hrobert/dev/workspace/scloud/sobk/.git"/>
+				<item key="repository44" value="/Users/hrobert/dev/workspace/scloud/smstrWS/.git"/>
+				<item key="repository6" value="/Users/hrobert/dev/workspace/scloud/extend/.git"/>
+				<item key="repository7" value="/Users/hrobert/dev/workspace/scloud/installer/.git"/>
+				<item key="repository8" value="/Users/hrobert/dev/workspace/scloud/jclient/.git"/>
+				<item key="repository41" value="/Users/hrobert/dev/workspace/scloud/smon/.git"/>
+				<item key="repository9" value="/Users/hrobert/dev/workspace/scloud/jclientEar/.git"/>
+				<item key="repository40" value="/Users/hrobert/dev/workspace/scloud/smob/.git"/>
+				<item key="repository2" value="/Users/hrobert/dev/workspace/scloud/core-framework/.git"/>
+				<item key="repository3" value="/Users/hrobert/dev/workspace/scloud/csec/.git"/>
+				<item key="repository4" value="/Users/hrobert/dev/workspace/scloud/db/.git"/>
+				<item key="repository5" value="/Users/hrobert/dev/workspace/scloud/dev/.git"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository39" value="/Users/hrobert/dev/workspace/scloud/smlm/.git"/>
+				<item key="repository36" value="/Users/hrobert/dev/workspace/scloud/shrmWs/.git"/>
+				<item key="repository35" value="/Users/hrobert/dev/workspace/scloud/sgap/.git"/>
+				<item key="repository38" value="/Users/hrobert/dev/workspace/scloud/smag/.git"/>
+				<item key="repository37" value="/Users/hrobert/dev/workspace/scloud/sicm/.git"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="repository32" value="/Users/hrobert/dev/workspace/scloud/sfhu/.git"/>
+				<item key="repository31" value="/Users/hrobert/dev/workspace/scloud/server/.git"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="repository34" value="/Users/hrobert/dev/workspace/scloud/sfxa/.git"/>
+				<item key="repository33" value="/Users/hrobert/dev/workspace/scloud/sfro/.git"/>
+				<item key="repository30" value="/Users/hrobert/dev/workspace/scloud/sems/.git"/>
+				<item key="textPattern" value="core-api.jar"/>
+				<item key="repository29" value="/Users/hrobert/dev/workspace/scloud/sele/.git"/>
+				<item key="repository28" value="/Users/hrobert/dev/workspace/scloud/sedi/.git"/>
+				<item key="repository25" value="/Users/hrobert/dev/workspace/scloud/scwi/.git"/>
+				<item key="repository24" value="/Users/hrobert/dev/workspace/scloud/scqm/.git"/>
+				<item key="repository27" value="/Users/hrobert/dev/workspace/scloud/sdwh/.git"/>
+				<item key="repository26" value="/Users/hrobert/dev/workspace/scloud/sdei/.git"/>
+				<item key="repository21" value="/Users/hrobert/dev/workspace/scloud/reporting/.git"/>
+				<item key="repository20" value="/Users/hrobert/dev/workspace/scloud/prks/.git"/>
+				<item key="matchParents" value="true"/>
+				<item key="repository23" value="/Users/hrobert/dev/workspace/scloud/scld/.git"/>
+				<item key="repository22" value="/Users/hrobert/dev/workspace/scloud/sagr/.git"/>
+			</section>
+		</section>
+		<section name="HISTORY0">
+			<section name="searchSection">
+				<item key="repository18" value="/Users/hrobert/dev/workspace/scloud/pmed/.git"/>
+				<item key="repository17" value="/Users/hrobert/dev/workspace/scloud/pirw/.git"/>
+				<item key="repository19" value="/Users/hrobert/dev/workspace/scloud/prds/.git"/>
+				<item key="repository14" value="/Users/hrobert/dev/workspace/scloud/pbit/.git"/>
+				<item key="repository58" value="/Users/hrobert/dev/workspace/scloud/swms/.git"/>
+				<item key="repositoryCount" value="60"/>
+				<item key="repository13" value="/Users/hrobert/dev/workspace/scloud/pavg/.git"/>
+				<item key="repository57" value="/Users/hrobert/dev/workspace/scloud/sweb-themes/.git"/>
+				<item key="repository16" value="/Users/hrobert/dev/workspace/scloud/pf64/.git"/>
+				<item key="repository15" value="/Users/hrobert/dev/workspace/scloud/pcsd/.git"/>
+				<item key="repository59" value="/Users/hrobert/dev/workspace/scloud/swss/.git"/>
+				<item key="repository10" value="/Users/hrobert/dev/workspace/scloud/lib/.git"/>
+				<item key="repository54" value="/Users/hrobert/dev/workspace/scloud/stln/.git"/>
+				<item key="repository53" value="/Users/hrobert/dev/workspace/scloud/srpd/.git"/>
+				<item key="repository12" value="/Users/hrobert/dev/workspace/scloud/paur/.git"/>
+				<item key="repository56" value="/Users/hrobert/dev/workspace/scloud/sweb/.git"/>
+				<item key="repository11" value="/Users/hrobert/dev/workspace/scloud/paer/.git"/>
+				<item key="repository55" value="/Users/hrobert/dev/workspace/scloud/strl/.git"/>
+				<item key="repository50" value="/Users/hrobert/dev/workspace/scloud/sprc/.git"/>
+				<item key="matchTree" value="true"/>
+				<item key="repository52" value="/Users/hrobert/dev/workspace/scloud/sprx/.git"/>
+				<item key="repository51" value="/Users/hrobert/dev/workspace/scloud/sprv/.git"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="repository47" value="/Users/hrobert/dev/workspace/scloud/soff/.git"/>
+				<item key="repository46" value="/Users/hrobert/dev/workspace/scloud/sobk/.git"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/capi/.git"/>
+				<item key="repository49" value="/Users/hrobert/dev/workspace/scloud/spos/.git"/>
+				<item key="repository1" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="repository48" value="/Users/hrobert/dev/workspace/scloud/sohh/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="repository43" value="/Users/hrobert/dev/workspace/scloud/smrp/.git"/>
+				<item key="repository42" value="/Users/hrobert/dev/workspace/scloud/smon/.git"/>
+				<item key="repository45" value="/Users/hrobert/dev/workspace/scloud/smstrWS/.git"/>
+				<item key="repository44" value="/Users/hrobert/dev/workspace/scloud/smstr/.git"/>
+				<item key="repository6" value="/Users/hrobert/dev/workspace/scloud/extend/.git"/>
+				<item key="repository7" value="/Users/hrobert/dev/workspace/scloud/installer/.git"/>
+				<item key="repository8" value="/Users/hrobert/dev/workspace/scloud/jclient/.git"/>
+				<item key="repository41" value="/Users/hrobert/dev/workspace/scloud/smob/.git"/>
+				<item key="repository9" value="/Users/hrobert/dev/workspace/scloud/jclientEar/.git"/>
+				<item key="repository40" value="/Users/hrobert/dev/workspace/scloud/smlm/.git"/>
+				<item key="repository2" value="/Users/hrobert/dev/workspace/scloud/core-framework/.git"/>
+				<item key="repository3" value="/Users/hrobert/dev/workspace/scloud/csec/.git"/>
+				<item key="repository4" value="/Users/hrobert/dev/workspace/scloud/db/.git"/>
+				<item key="repository5" value="/Users/hrobert/dev/workspace/scloud/dev/.git"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository39" value="/Users/hrobert/dev/workspace/scloud/smag/.git"/>
+				<item key="repository36" value="/Users/hrobert/dev/workspace/scloud/sgap/.git"/>
+				<item key="repository35" value="/Users/hrobert/dev/workspace/scloud/sfxa/.git"/>
+				<item key="repository38" value="/Users/hrobert/dev/workspace/scloud/sicm/.git"/>
+				<item key="repository37" value="/Users/hrobert/dev/workspace/scloud/shrmWs/.git"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="repository32" value="/Users/hrobert/dev/workspace/scloud/server/.git"/>
+				<item key="repository31" value="/Users/hrobert/dev/workspace/scloud/sems/.git"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="repository34" value="/Users/hrobert/dev/workspace/scloud/sfro/.git"/>
+				<item key="repository33" value="/Users/hrobert/dev/workspace/scloud/sfhu/.git"/>
+				<item key="repository30" value="/Users/hrobert/dev/workspace/scloud/sele/.git"/>
+				<item key="textPattern" value="prks"/>
+				<item key="repository29" value="/Users/hrobert/dev/workspace/scloud/sedi/.git"/>
+				<item key="repository28" value="/Users/hrobert/dev/workspace/scloud/sdwh/.git"/>
+				<item key="repository25" value="/Users/hrobert/dev/workspace/scloud/scqm/.git"/>
+				<item key="repository24" value="/Users/hrobert/dev/workspace/scloud/scld/.git"/>
+				<item key="repository27" value="/Users/hrobert/dev/workspace/scloud/sdei/.git"/>
+				<item key="repository26" value="/Users/hrobert/dev/workspace/scloud/scwi/.git"/>
+				<item key="repository21" value="/Users/hrobert/dev/workspace/scloud/prop/.git"/>
+				<item key="repository20" value="/Users/hrobert/dev/workspace/scloud/prks/.git"/>
+				<item key="matchParents" value="true"/>
+				<item key="repository23" value="/Users/hrobert/dev/workspace/scloud/sagr/.git"/>
+				<item key="repository22" value="/Users/hrobert/dev/workspace/scloud/reporting/.git"/>
+			</section>
+		</section>
+		<section name="HISTORY1">
+			<section name="searchSection">
+				<item key="repositoryCount" value="1"/>
+				<item key="repository0" value="/Users/hrobert/dev/workspace/scloud/core-business/.git"/>
+				<item key="regexSearch" value="false"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="matchMessage" value="true"/>
+				<item key="ignoreCase" value="true"/>
+				<item key="matchParents" value="true"/>
+				<item key="allBranches" value="false"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchTree" value="true"/>
+				<item key="textPattern" value="1052666"/>
+				<item key="matchCommitter" value="true"/>
+			</section>
+		</section>
+	</section>
+	<section name="CommitSelectionDialogSection">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_X_ORIGIN" value="660"/>
+			<item key="DIALOG_Y_ORIGIN" value="193"/>
+		</section>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_X_ORIGIN" value="698"/>
+		<item key="DIALOG_Y_ORIGIN" value="41"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RenameBranchDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_X_ORIGIN" value="578"/>
+		<item key="DIALOG_Y_ORIGIN" value="203"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.MultiPullResultDialog$7.dialogBounds">
+		<item key="DIALOG_WIDTH" value="681"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_X_ORIGIN" value="60"/>
+		<item key="DIALOG_Y_ORIGIN" value="127"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="578"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="190"/>
+		<item key="DIALOG_X_ORIGIN" value="671"/>
+		<item key="DIALOG_Y_ORIGIN" value="402"/>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="626"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="623"/>
+		<item key="DIALOG_X_ORIGIN" value="433"/>
+		<item key="DIALOG_Y_ORIGIN" value="223"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="600"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_X_ORIGIN" value="340"/>
+		<item key="DIALOG_Y_ORIGIN" value="93"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CompareTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_X_ORIGIN" value="698"/>
+		<item key="DIALOG_Y_ORIGIN" value="218"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+	</section>
+	<section name="GitImportWizard">
+	</section>
+</section>

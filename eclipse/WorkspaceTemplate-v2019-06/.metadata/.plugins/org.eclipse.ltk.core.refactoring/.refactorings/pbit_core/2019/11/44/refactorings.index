@@ -1,0 +1,5 @@
+1572595688901	Rename local variable 'alreadyCreatedNewDownloadNames'
+1572598844570	Rename local variable 'alreadyCreatedNewDownloadCodes'
+1572602398262	Rename local variable 'oldDowloadURL'
+1572602403859	Rename local variable 'newDowloadURL'
+1572603501010	Rename local variable 'newlyCreatedDownloads'

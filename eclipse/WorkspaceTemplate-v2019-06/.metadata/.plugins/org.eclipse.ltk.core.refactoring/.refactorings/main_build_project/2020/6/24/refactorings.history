@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;2020-06-11--14-00-00_1063680.sql&apos; to &apos;2020-06-11--14-00-00_1063680.sql&apos;&#x0A;- Original project: &apos;main_build_project&apos;&#x0A;- Destination element: &apos;2020-06-11--14-00-00_1063680.sql&apos;&#x0A;- Original element: &apos;2020-06-11--14-00-00_1063680.sql&apos;" description="Copy file" element1="db/version_sqls/v20.05.x/2020-06-11--14-00-00_1063680.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1591959040993" target="/main_build_project/db/version_sqls/v20.05.x/2020-06-11--14-00-00_1063680.sql" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/Users/hrobert/dev/workspace/scloud-gradle/socratecloud_erp_full/main_build_project/smon/src/main/java</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/Users/hrobert/dev/workspace/scloud-gradle/socratecloud_erp_full/main_build_project/sweb/src/main/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

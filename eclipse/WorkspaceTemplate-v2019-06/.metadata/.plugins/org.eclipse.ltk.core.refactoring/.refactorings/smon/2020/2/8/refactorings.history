@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;key_where&apos; in &apos;com.bitsoftware.soweb.server.service.WindowServiceUtil.getRecordChangeLogsFromDB(...)&apos; to &apos;recordId_where&apos;&#x0A;- Original project: &apos;smon&apos;&#x0A;- Original element: &apos;com.bitsoftware.soweb.server.service.WindowServiceUtil.getRecordChangeLogsFromDB(ClientSession, MDTab, Object).key_where&apos;&#x0A;- Renamed element: &apos;key_where&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;key_where&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/main-java&lt;com.bitsoftware.soweb.server.service{WindowServiceUtil.java[WindowServiceUtil~getRecordChangeLogsFromDB~QClientSession;~QMDTab;~QObject;@key_where!172204!172220!172211!172219!QString;!0!false" name="recordId_where" references="true" stamp="1582295343669" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+1588669246546	Rename type 'CAPIModuleAPI'
+1588676969320	Rename type 'CAPIModuleServlet'
+1588682812314	Delete element
+1588692481042	Move file
+1588775385876	Rename type 'ReportingDataAdminService'
+1588776872856	Rename method 'runReport'
+1588851820918	Rename type 'ReportingService'
+1588852225407	Rename method 'runReportByPrintFormat'
+1588852347919	Rename method 'runReportByProcessInfo'

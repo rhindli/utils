@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bitsoftware.stln.rest.webmodule.CAPIModuleAPI&apos; to &apos;TelnetServerModuleAPI&apos;&#x0A;- Original project: &apos;telnet&apos;&#x0A;- Original element: &apos;com.bitsoftware.stln.rest.webmodule.CAPIModuleAPI&apos;&#x0A;- Renamed element: &apos;com.bitsoftware.stln.rest.webmodule.TelnetServerModuleAPI&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CAPIModuleAPI&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.bitsoftware.stln.rest.webmodule{CAPIModuleAPI.java[CAPIModuleAPI" matchStrategy="1" name="TelnetServerModuleAPI" qualified="false" references="true" similarDeclarations="false" stamp="1588670098086" textual="false" version="1.0"/>
+</session>

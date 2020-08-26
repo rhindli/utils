@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;org.bitsoftware.sgap.process&apos; to &apos;sgap/src/main/java&apos;&#x0A;- Original project: &apos;sgap_ejb&apos;&#x0A;- Destination element: &apos;sgap/src/main/java&apos;&#x0A;- Original element: &apos;sgap_ejb/src/main/java/org.bitsoftware.sgap.process&apos;" description="Copy package" destination="=sgap/src\/main\/java" element1="/src\/main\/java&lt;org.bitsoftware.sgap.process" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1588860002700" version="1.0"/>
+</session>

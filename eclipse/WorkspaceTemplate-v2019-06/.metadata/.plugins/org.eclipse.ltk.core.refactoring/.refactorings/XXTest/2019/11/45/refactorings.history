@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;headSrcBranchCommit&apos; in &apos;XXTest.TestJGit.findBranchOrigin(...)&apos; to &apos;srcBranchHeadCommit&apos;&#x0A;- Original project: &apos;XXTest&apos;&#x0A;- Original element: &apos;XXTest.TestJGit.findBranchOrigin(String, String).headSrcBranchCommit&apos;&#x0A;- Renamed element: &apos;headSrcBranchCommit&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;headSrcBranchCommit&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;XXTest{TestJGit.java[TestJGit~findBranchOrigin~QString;~QString;@headSrcBranchCommit!6205!6276!6215!6233!QRevCommit;!0!false" name="srcBranchHeadCommit" references="true" stamp="1573222827251" version="1.0"/>
+</session>

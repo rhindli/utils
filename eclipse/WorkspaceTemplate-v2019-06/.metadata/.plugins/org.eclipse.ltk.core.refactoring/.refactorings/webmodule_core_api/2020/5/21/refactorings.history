@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;name&apos; in &apos;com.bitsoftware.webmodule.api.WebModuleAPI.unblockUser(...)&apos; to &apos;id&apos;&#x0A;- Original project: &apos;webmodule_core_api&apos;&#x0A;- Original element: &apos;com.bitsoftware.webmodule.api.WebModuleAPI.unblockUser(String).name&apos;&#x0A;- Renamed element: &apos;name&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;name&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.bitsoftware.webmodule.api{WebModuleAPI.java[WebModuleAPI~unblockUser~QString;@name!7094!7122!7119!7122!QString;!0!true" name="id" references="true" stamp="1589896229181" version="1.0"/>
+</session>
