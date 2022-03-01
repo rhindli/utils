@@ -1,0 +1,21 @@
+
+--Order by the order of elements in an array
+
+SELECT * FROM ad_client WHERE ad_client_id IN (1000001, 2140900001, 1000014, 1000017)
+ORDER BY array_position(ARRAY[2140900001::bigint, 1000001::bigint, 1000017::bigint, 1000014::bigint], ad_client_id);
+
+--find if on table ad_field on current schema there is an index named ad_field_column with columns 'ad_column_id, ad_tab_id'
+
+	SELECT 1
+  FROM pg_class t
+  JOIN pg_index ix on t.oid = ix.indrelid
+  JOIN pg_class i ON i.oid = ix.indexrelid 
+  JOIN pg_namespace ns ON ns.oid = t.relnamespace 
+  WHERE t.relkind = 'r'
+    AND t.relname = 'ad_field'
+    AND ns.nspname = CURRENT_SCHEMA()
+    AND i.relname = 'ad_field_column'
+    AND array_to_string(
+      ARRAY(SELECT pg_get_indexdef(ix.indexrelid, k + 1, true)
+        FROM generate_subscripts(ix.indkey, 1) as k
+        ORDER BY k), ', ') = 'ad_column_id, ad_tab_id'
