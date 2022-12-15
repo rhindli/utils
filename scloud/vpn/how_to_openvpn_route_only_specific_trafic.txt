@@ -1,0 +1,8 @@
+You can add to openvpn configuration file (.ovpn) the following to not route all trafic via vpn but only 
+lets say 192.168.1.x and 192.168.10.x and 192.168.20.33
+
+
+pull-filter ignore "redirect-gateway"
+route 192.168.1.0 255.255.255.0 vpn_gateway
+route 192.168.10.0 255.255.255.0 vpn_gateway
+route 192.168.20.33 255.255.255.255 vpn_gateway
